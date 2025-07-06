@@ -1,0 +1,3411 @@
+{
+    "data": {
+        "query": "p&g",
+        "widgets": [
+            {
+                "collectionId": 1,
+                "layoutId": 4131,
+                "id": 108331,
+                "active": 1,
+                "widgetInfo": {
+                    "widgetType": "PRODUCT_LIST",
+                    "header": null,
+                    "title": "",
+                    "fallbackTitle": "",
+                    "affordance": false,
+                    "autoScrollTime": -1,
+                    "description": "",
+                    "platformVersionInfoList": null,
+                    "widgetStyles": null,
+                    "cities": [],
+                    "widgetIdentifier": null,
+                    "analytics": {
+                        "objectValue": "p&g",
+                        "context": "{}",
+                        "impressionObjectName": "impression-menu-widget",
+                        "clickObjectName": "click-cta",
+                        "extraFields": {
+                            "widgetId": "108331"
+                        }
+                    },
+                    "itemCount": 20
+                },
+                "data": [
+                    {
+                        "variations": [
+                            {
+                                "id": "O2XXQR22VA",
+                                "spin": "1KJ3R8W2H3",
+                                "price": {
+                                    "mrp": 550,
+                                    "currency": "INR",
+                                    "store_price": 550,
+                                    "offer_price": 495,
+                                    "unit_level_price": "",
+                                    "offer_applied": {
+                                        "offer_id": "5427cfb5-1312-4cbf-a4ce-8aaf91f42193",
+                                        "listing_description": "10% OFF",
+                                        "product_description": "10% OFF",
+                                        "super_offer": false,
+                                        "mov_threshold": 0
+                                    }
+                                },
+                                "inventory": {
+                                    "total": 0,
+                                    "remaining": 0,
+                                    "message": "",
+                                    "in_stock": false
+                                },
+                                "images": [
+                                    "NI_CATALOG/IMAGES/CIW/2024/7/19/4ec34635-113b-41be-9d5f-3652245c9435_lipbalm_1KJ3R8W2H3_MN.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/7/19/4dd96a6b-3834-45ea-8aaa-7befd99d2d28_lipbalm_1KJ3R8W2H3_AL4.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/7/19/0d025f3e-b32a-4225-a376-6f52befa0f7f_lipbalm_1KJ3R8W2H3_AL1.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/7/19/eaa5b6e2-75a8-4f46-bba1-7b15508a7fb7_lipbalm_1KJ3R8W2H3_AL2.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/7/19/de717091-5ceb-4930-bb67-05ad3755b842_lipbalm_1KJ3R8W2H3_AL3.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/10/f63a0538-c18b-40f3-8557-816472c59c69_84384_6.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/10/5421393e-aca8-4309-8453-1264ef78a9ee_84384_7.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/10/9ba244d5-e332-4cd9-acd8-c0be561b4775_84384_8.png"
+                                ],
+                                "quantity": "7 g",
+                                "meta": {
+                                    "short_description": "",
+                                    "long_description": "",
+                                    "disclaimer": "",
+                                    "groups": [],
+                                    "coupon_less_offers": [],
+                                    "replacement_applicable": false,
+                                    "return_applicable": false,
+                                    "handpicked": false
+                                },
+                                "dimensions": {
+                                    "length_in_cm": 14,
+                                    "width_in_cm": 1,
+                                    "height_in_cm": 1,
+                                    "volume_in_cc": 14
+                                },
+                                "brand": "Lakme",
+                                "category": "Lip Makeup",
+                                "displayVariant": false,
+                                "display_name": "Lakme 9To5 P+S Lipstick",
+                                "super_saver": false,
+                                "sku_slot_info": {
+                                    "message": null,
+                                    "avail": true,
+                                    "is_avail": true,
+                                    "next_change_time": []
+                                },
+                                "sku_quantity_with_combo": "7 g",
+                                "listing_variant": true,
+                                "max_allowed_quantity": 6,
+                                "cart_allowed_quantity": {
+                                    "total": 0,
+                                    "message": "That’s all we have in stock at the moment!"
+                                },
+                                "weight_in_grams": 7,
+                                "volumetric_weight": 0,
+                                "alcohol_content_percentage": 0,
+                                "container_type": "",
+                                "sub_category_type": "",
+                                "brand_id": "184551003ebdc62c4aebddfaafba0373dbe2f791",
+                                "product_name_without_brand": "9To5 P+S Lipstick",
+                                "sourcing_time": "",
+                                "sourced_from": "",
+                                "display_variant": false,
+                                "last_ordered_at": 0,
+                                "category_id": "0f2588e4-4422-4e38-aca1-4d1a000e525c",
+                                "sku_secondary_quantity": "",
+                                "sub_category": "Lipsticks",
+                                "super_category": "Makeup",
+                                "store_id": "1401254",
+                                "external_pharmacy_item": false,
+                                "rx_required": false
+                            }
+                        ],
+                        "available": true,
+                        "categoryId": "0f2588e4-4422-4e38-aca1-4d1a000e525c",
+                        "brand": "Lakme",
+                        "badges": [],
+                        "sosAdsPositionData": null,
+                        "category": "Lip Makeup",
+                        "retrievalRank": 1,
+                        "analytics": {
+                            "objectValue": "p&g",
+                            "context": "{\"itemId\":\"O2XXQR22VA\",\"slotAvailability\":true}",
+                            "impressionObjectName": "item-impression",
+                            "clickObjectName": "click-item",
+                            "extraFields": {
+                                "searchString": "p&g",
+                                "searchResultType": "HIGH_CONFIDENCE"
+                            }
+                        },
+                        "avail": true,
+                        "inStockAndSlotAvailable": false,
+                        "adItem": false,
+                        "product_id": "9HFJ4KX3ET",
+                        "display_name": "Lakme 9To5 P+S Lipstick",
+                        "is_avail": true,
+                        "in_stock": false,
+                        "brand_id": "184551003ebdc62c4aebddfaafba0373dbe2f791",
+                        "product_name_without_brand": "9To5 P+S Lipstick",
+                        "badge_info": null,
+                        "is_ad_item": false,
+                        "search_result_type": "HIGH_CONFIDENCE",
+                        "inline_message": null,
+                        "ad_tracking_context": null,
+                        "item_card_view": "V2",
+                        "super_category": "Makeup",
+                        "sub_category": "Lipsticks"
+                    },
+                    {
+                        "variations": [
+                            {
+                                "id": "Z4231331QD",
+                                "spin": "7WQUTXTPM9",
+                                "price": {
+                                    "mrp": 368,
+                                    "currency": "INR",
+                                    "store_price": 368,
+                                    "offer_price": 294,
+                                    "unit_level_price": "",
+                                    "offer_applied": {
+                                        "offer_id": "c38f0d3b-3aff-45fb-a152-ad1b75e74513",
+                                        "listing_description": "20% OFF",
+                                        "product_description": "20% OFF",
+                                        "super_offer": false,
+                                        "mov_threshold": 0
+                                    }
+                                },
+                                "inventory": {
+                                    "total": 1,
+                                    "remaining": 1,
+                                    "message": "",
+                                    "in_stock": true
+                                },
+                                "images": [
+                                    "NI_CATALOG/IMAGES/CIW/2024/8/31/351c0b9e-275d-47d1-84cd-3d2957009e90_224939_1.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/8/31/04fa7d91-e031-44b5-a7d0-9b30d8755296_224939_2.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/8/31/ffe86fba-eb25-443d-9c25-d6d522cfc7a5_224939_3.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/8/31/a5ee710c-dc2f-40ca-a461-7a32e4ac1c4e_224939_4.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/8/31/b4148bbf-43a1-4b92-9a8f-6db7b19e2273_224939_5.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/8/31/6d5889fa-b46d-47be-9206-b1cceb485291_224939_6.png"
+                                ],
+                                "quantity": "5 kg",
+                                "meta": {
+                                    "short_description": "",
+                                    "long_description": "",
+                                    "disclaimer": "",
+                                    "groups": [],
+                                    "coupon_less_offers": [],
+                                    "replacement_applicable": false,
+                                    "return_applicable": false,
+                                    "handpicked": false
+                                },
+                                "dimensions": {
+                                    "length_in_cm": 10000,
+                                    "width_in_cm": 1,
+                                    "height_in_cm": 1,
+                                    "volume_in_cc": 10000
+                                },
+                                "brand": "Ahaar",
+                                "category": "Atta",
+                                "displayVariant": false,
+                                "display_name": "Ahaar Super M.P Sharbati Wheat Atta",
+                                "super_saver": false,
+                                "sku_slot_info": {
+                                    "message": null,
+                                    "avail": true,
+                                    "is_avail": true,
+                                    "next_change_time": []
+                                },
+                                "sku_quantity_with_combo": "5 kg",
+                                "listing_variant": true,
+                                "max_allowed_quantity": 6,
+                                "cart_allowed_quantity": {
+                                    "total": 3,
+                                    "message": "That’s all we have in stock at the moment!"
+                                },
+                                "weight_in_grams": 5000,
+                                "volumetric_weight": 0,
+                                "alcohol_content_percentage": 0,
+                                "container_type": "",
+                                "sub_category_type": "Wheat Atta",
+                                "brand_id": "6ef3b8954099a6e71292dddac1af23535803ac44",
+                                "product_name_without_brand": "Super M.P Sharbati Wheat Atta",
+                                "sourcing_time": "",
+                                "sourced_from": "",
+                                "display_variant": false,
+                                "last_ordered_at": 0,
+                                "category_id": "71277672-dca8-4180-a5ba-184fb75a215b",
+                                "sku_secondary_quantity": "",
+                                "sub_category": "Wheat Atta",
+                                "super_category": "Atta, Rice and Dals",
+                                "store_id": "1401254",
+                                "external_pharmacy_item": false,
+                                "rx_required": false
+                            }
+                        ],
+                        "available": true,
+                        "categoryId": "71277672-dca8-4180-a5ba-184fb75a215b",
+                        "brand": "Ahaar",
+                        "badges": [],
+                        "sosAdsPositionData": null,
+                        "category": "Atta",
+                        "retrievalRank": 2,
+                        "analytics": {
+                            "objectValue": "p&g",
+                            "context": "{\"itemId\":\"Z4231331QD\",\"slotAvailability\":true}",
+                            "impressionObjectName": "item-impression",
+                            "clickObjectName": "click-item",
+                            "extraFields": {
+                                "searchString": "p&g",
+                                "searchResultType": "LOW_CONFIDENCE"
+                            }
+                        },
+                        "avail": true,
+                        "inStockAndSlotAvailable": true,
+                        "adItem": false,
+                        "product_id": "KDZEAEUE1N",
+                        "display_name": "Ahaar Super M.P Sharbati Wheat Atta",
+                        "is_avail": true,
+                        "in_stock": true,
+                        "brand_id": "6ef3b8954099a6e71292dddac1af23535803ac44",
+                        "product_name_without_brand": "Super M.P Sharbati Wheat Atta",
+                        "badge_info": null,
+                        "is_ad_item": false,
+                        "search_result_type": "LOW_CONFIDENCE",
+                        "inline_message": null,
+                        "ad_tracking_context": null,
+                        "item_card_view": "V2",
+                        "super_category": "Atta, Rice and Dals",
+                        "sub_category": "Wheat Atta"
+                    },
+                    {
+                        "variations": [
+                            {
+                                "id": "RTMVMMPSWY",
+                                "spin": "19ZW8M4MG3",
+                                "price": {
+                                    "mrp": 499,
+                                    "currency": "INR",
+                                    "store_price": 499,
+                                    "offer_price": 315,
+                                    "unit_level_price": "50.4/100 g",
+                                    "offer_applied": {
+                                        "offer_id": "bf96e9d9-f640-4120-bba4-39f1c30ac0e0",
+                                        "listing_description": "36% OFF",
+                                        "product_description": "36% OFF",
+                                        "super_offer": false,
+                                        "mov_threshold": 0
+                                    }
+                                },
+                                "inventory": {
+                                    "total": 1,
+                                    "remaining": 1,
+                                    "message": "",
+                                    "in_stock": true
+                                },
+                                "images": [
+                                    "83215b6a0c8dabdb9f3cc5744d06ccb0",
+                                    "bb2b3d476d8b52c4012cde176b599adf",
+                                    "ab8dfe38ff2b38164fc5a51c5d932930",
+                                    "5bbeaa7422764d4be864c449ef4fe0e8",
+                                    "6cbaff865f6649da9ae1ddde868210b3"
+                                ],
+                                "quantity": "625 g",
+                                "meta": {
+                                    "short_description": "          ",
+                                    "long_description": "Pack of 5",
+                                    "disclaimer": "",
+                                    "groups": [],
+                                    "coupon_less_offers": [],
+                                    "replacement_applicable": false,
+                                    "return_applicable": false,
+                                    "handpicked": false
+                                },
+                                "dimensions": {
+                                    "length_in_cm": 28,
+                                    "width_in_cm": 7,
+                                    "height_in_cm": 10,
+                                    "volume_in_cc": 1960
+                                },
+                                "brand": "Dove",
+                                "category": "Soap",
+                                "displayVariant": true,
+                                "display_name": "Dove Cream Beauty Bathing Bar B4G1 Free",
+                                "super_saver": true,
+                                "sku_slot_info": {
+                                    "message": null,
+                                    "avail": true,
+                                    "is_avail": true,
+                                    "next_change_time": []
+                                },
+                                "sku_quantity_with_combo": "625 g",
+                                "listing_variant": true,
+                                "max_allowed_quantity": 50,
+                                "cart_allowed_quantity": {
+                                    "total": 3,
+                                    "message": "That’s all we have in stock at the moment!"
+                                },
+                                "weight_in_grams": 625,
+                                "volumetric_weight": 0,
+                                "alcohol_content_percentage": 0,
+                                "container_type": "",
+                                "sub_category_type": "Bar Soap",
+                                "brand_id": "fcf1c9191929b9b4cd91c07f04805d7a5347ac8b",
+                                "product_name_without_brand": "Cream Beauty Bathing Bar B4G1 Free",
+                                "sourcing_time": "",
+                                "sourced_from": "",
+                                "display_variant": true,
+                                "last_ordered_at": 0,
+                                "category_id": "7afe02b1-cd82-4120-b808-7820e3818ae3",
+                                "sku_secondary_quantity": "5 X 125g",
+                                "sub_category": "Moisturising Soap",
+                                "super_category": "Bath Body and Hair",
+                                "store_id": "1401254",
+                                "external_pharmacy_item": false,
+                                "rx_required": false
+                            },
+                            {
+                                "id": "99HK6CV1M3",
+                                "spin": "301Y3POLCZ",
+                                "price": {
+                                    "mrp": 60,
+                                    "currency": "INR",
+                                    "store_price": 60,
+                                    "offer_price": 60,
+                                    "unit_level_price": "",
+                                    "offer_applied": {
+                                        "offer_id": "",
+                                        "listing_description": "",
+                                        "product_description": "",
+                                        "super_offer": false,
+                                        "mov_threshold": 0
+                                    }
+                                },
+                                "inventory": {
+                                    "total": 1,
+                                    "remaining": 1,
+                                    "message": "",
+                                    "in_stock": true
+                                },
+                                "images": [
+                                    "NI_CATALOG/IMAGES/CIW/2024/11/29/4a16a708-4028-430d-9885-fefe49160345_79049_1.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/11/29/0f57230b-03f4-4972-9ed5-44538fc31b25_79049_2.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/11/29/50ead2d6-bafa-4baa-a450-bed63013f33f_79049_3.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/11/29/c62d4375-47b8-48c5-bf5a-5b3fccfc9be5_79049_4.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/11/29/1c562cb1-d3f3-4940-adc0-769adb2ff8bb_79049_5.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/11/29/95e5ed36-908f-491a-9f5a-a5d1f15a1777_79049_6.png"
+                                ],
+                                "quantity": "100 g",
+                                "meta": {
+                                    "short_description": "",
+                                    "long_description": "Dove Cream Beauty Bathing Bar (100g + 20g Free)",
+                                    "disclaimer": "",
+                                    "groups": [],
+                                    "coupon_less_offers": [],
+                                    "replacement_applicable": false,
+                                    "return_applicable": false,
+                                    "handpicked": false
+                                },
+                                "dimensions": {
+                                    "length_in_cm": 200,
+                                    "width_in_cm": 1,
+                                    "height_in_cm": 1,
+                                    "volume_in_cc": 200
+                                },
+                                "brand": "Dove",
+                                "category": "Soap",
+                                "displayVariant": false,
+                                "display_name": "Dove Cream Beauty Bathing Bar B4G1 Free",
+                                "super_saver": false,
+                                "sku_slot_info": {
+                                    "message": null,
+                                    "avail": true,
+                                    "is_avail": true,
+                                    "next_change_time": []
+                                },
+                                "sku_quantity_with_combo": "100 g",
+                                "listing_variant": false,
+                                "max_allowed_quantity": 50,
+                                "cart_allowed_quantity": {
+                                    "total": 1,
+                                    "message": "That’s all we have in stock at the moment!"
+                                },
+                                "weight_in_grams": 100,
+                                "volumetric_weight": 0,
+                                "alcohol_content_percentage": 0,
+                                "container_type": "",
+                                "sub_category_type": "Bar Soap",
+                                "brand_id": "fcf1c9191929b9b4cd91c07f04805d7a5347ac8b",
+                                "product_name_without_brand": "Cream Beauty Bathing Bar",
+                                "sourcing_time": "",
+                                "sourced_from": "",
+                                "display_variant": false,
+                                "last_ordered_at": 0,
+                                "category_id": "7afe02b1-cd82-4120-b808-7820e3818ae3",
+                                "sku_secondary_quantity": "",
+                                "sub_category": "Moisturising Soap",
+                                "super_category": "Bath Body and Hair",
+                                "store_id": "1401254",
+                                "external_pharmacy_item": false,
+                                "rx_required": false
+                            }
+                        ],
+                        "available": true,
+                        "categoryId": "7afe02b1-cd82-4120-b808-7820e3818ae3",
+                        "brand": "Dove",
+                        "badges": [],
+                        "sosAdsPositionData": null,
+                        "category": "Soap",
+                        "retrievalRank": 92,
+                        "analytics": {
+                            "objectValue": "p&g",
+                            "context": "{\"itemId\":\"RTMVMMPSWY\",\"slotAvailability\":true}",
+                            "impressionObjectName": "item-impression",
+                            "clickObjectName": "click-item",
+                            "extraFields": {
+                                "searchString": "p&g",
+                                "searchResultType": "LOW_CONFIDENCE"
+                            }
+                        },
+                        "avail": true,
+                        "inStockAndSlotAvailable": true,
+                        "adItem": false,
+                        "product_id": "G1ZE4VHXQL",
+                        "display_name": "Dove Cream Beauty Bathing Bar B4G1 Free",
+                        "is_avail": true,
+                        "in_stock": true,
+                        "brand_id": "fcf1c9191929b9b4cd91c07f04805d7a5347ac8b",
+                        "product_name_without_brand": "Cream Beauty Bathing Bar B4G1 Free",
+                        "badge_info": null,
+                        "is_ad_item": false,
+                        "search_result_type": "LOW_CONFIDENCE",
+                        "inline_message": null,
+                        "ad_tracking_context": null,
+                        "item_card_view": "V2",
+                        "super_category": "Bath Body and Hair",
+                        "sub_category": "Moisturising Soap"
+                    },
+                    {
+                        "variations": [
+                            {
+                                "id": "HC642QI6RQ",
+                                "spin": "QNRCT4FY3Z",
+                                "price": {
+                                    "mrp": 699,
+                                    "currency": "INR",
+                                    "store_price": 699,
+                                    "offer_price": 377,
+                                    "unit_level_price": "",
+                                    "offer_applied": {
+                                        "offer_id": "a877c576-83b1-428a-975f-08c87fe62592",
+                                        "listing_description": "46% OFF",
+                                        "product_description": "46% OFF",
+                                        "super_offer": false,
+                                        "mov_threshold": 0
+                                    }
+                                },
+                                "inventory": {
+                                    "total": 1,
+                                    "remaining": 1,
+                                    "message": "",
+                                    "in_stock": true
+                                },
+                                "images": [
+                                    "NI_CATALOG/IMAGES/CIW/2024/8/13/431cf412-7b25-44dc-86af-1b08e5fc2d85_733924_1.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/8/13/7f6f8516-8a29-4b1e-a4b0-a451382eb3ea_733924_2.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/8/13/1b9e73d8-dc4d-4e71-9fed-d48f5282ddca_733924_3.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/8/13/a7975cd4-08c9-4245-a989-ec363d4538fd_733924_4.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/8/13/6708a50c-4e51-43ec-a54a-1c87a12571d2_733924_5.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/8/13/7dad9525-3e44-463e-ba2a-4e9cd87fe2de_733924_6.png"
+                                ],
+                                "quantity": "350 g",
+                                "meta": {
+                                    "short_description": "",
+                                    "long_description": "1 Pack - (2 X Double Chocolate, 2 X Almond Fudge, 1 Hazelnut)",
+                                    "disclaimer": "",
+                                    "groups": [],
+                                    "coupon_less_offers": [],
+                                    "replacement_applicable": false,
+                                    "return_applicable": false,
+                                    "handpicked": false
+                                },
+                                "dimensions": {
+                                    "length_in_cm": 700,
+                                    "width_in_cm": 1,
+                                    "height_in_cm": 1,
+                                    "volume_in_cc": 700
+                                },
+                                "brand": "Yogabar",
+                                "category": "Energy Bars",
+                                "displayVariant": false,
+                                "display_name": "Yogabar 20g Protein Bar Pack 5 Variety pack",
+                                "super_saver": false,
+                                "sku_slot_info": {
+                                    "message": null,
+                                    "avail": true,
+                                    "is_avail": true,
+                                    "next_change_time": []
+                                },
+                                "sku_quantity_with_combo": "350 g",
+                                "listing_variant": true,
+                                "max_allowed_quantity": 50,
+                                "cart_allowed_quantity": {
+                                    "total": 1,
+                                    "message": "That’s all we have in stock at the moment!"
+                                },
+                                "weight_in_grams": 350,
+                                "volumetric_weight": 0,
+                                "alcohol_content_percentage": 0,
+                                "container_type": "",
+                                "sub_category_type": "",
+                                "brand_id": "46680527a027ac751937f329a312efcb9110da20",
+                                "product_name_without_brand": "20g Protein Bar Pack 5 Variety pack",
+                                "sourcing_time": "",
+                                "sourced_from": "",
+                                "display_variant": false,
+                                "last_ordered_at": 0,
+                                "category_id": "6233e672-1831-4025-a6d0-fe16f086c239",
+                                "sku_secondary_quantity": "",
+                                "sub_category": "Protein Bars",
+                                "super_category": "Cereals and Breakfast",
+                                "store_id": "1401254",
+                                "external_pharmacy_item": false,
+                                "rx_required": false
+                            }
+                        ],
+                        "available": true,
+                        "categoryId": "6233e672-1831-4025-a6d0-fe16f086c239",
+                        "brand": "Yogabar",
+                        "badges": [],
+                        "sosAdsPositionData": null,
+                        "category": "Energy Bars",
+                        "retrievalRank": 35,
+                        "analytics": {
+                            "objectValue": "p&g",
+                            "context": "{\"itemId\":\"HC642QI6RQ\",\"slotAvailability\":true}",
+                            "impressionObjectName": "item-impression",
+                            "clickObjectName": "click-item",
+                            "extraFields": {
+                                "searchString": "p&g",
+                                "searchResultType": "LOW_CONFIDENCE"
+                            }
+                        },
+                        "avail": true,
+                        "inStockAndSlotAvailable": true,
+                        "adItem": false,
+                        "product_id": "XPXGQSI52U",
+                        "display_name": "Yogabar 20g Protein Bar Pack 5 Variety pack",
+                        "is_avail": true,
+                        "in_stock": true,
+                        "brand_id": "46680527a027ac751937f329a312efcb9110da20",
+                        "product_name_without_brand": "20g Protein Bar Pack 5 Variety pack",
+                        "badge_info": null,
+                        "is_ad_item": false,
+                        "search_result_type": "LOW_CONFIDENCE",
+                        "inline_message": null,
+                        "ad_tracking_context": null,
+                        "item_card_view": "V2",
+                        "super_category": "Cereals and Breakfast",
+                        "sub_category": "Protein Bars"
+                    },
+                    {
+                        "variations": [
+                            {
+                                "id": "MM68HAR80G",
+                                "spin": "RLDDDK0H19",
+                                "price": {
+                                    "mrp": 1225,
+                                    "currency": "INR",
+                                    "store_price": 1225,
+                                    "offer_price": 883,
+                                    "unit_level_price": "",
+                                    "offer_applied": {
+                                        "offer_id": "b418bcc9-8180-41f1-a0ee-7a0b2c19982a",
+                                        "listing_description": "27% OFF",
+                                        "product_description": "27% OFF",
+                                        "super_offer": false,
+                                        "mov_threshold": 0
+                                    }
+                                },
+                                "inventory": {
+                                    "total": 1,
+                                    "remaining": 1,
+                                    "message": "",
+                                    "in_stock": true
+                                },
+                                "images": [
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/19/6a15712b-327b-46d7-aced-8e11768ff5f7_880993_1.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/19/ac72bacb-d9da-4ccc-b0bf-1cecb59b8a3e_880993_2.png"
+                                ],
+                                "quantity": "5000 ml",
+                                "meta": {
+                                    "short_description": "",
+                                    "long_description": "",
+                                    "disclaimer": "",
+                                    "groups": [],
+                                    "coupon_less_offers": [],
+                                    "replacement_applicable": false,
+                                    "return_applicable": false,
+                                    "handpicked": false
+                                },
+                                "dimensions": {
+                                    "length_in_cm": 26,
+                                    "width_in_cm": 8,
+                                    "height_in_cm": 6,
+                                    "volume_in_cc": 1248
+                                },
+                                "brand": "P Mark",
+                                "category": "Edible Oils",
+                                "displayVariant": false,
+                                "display_name": "P Mark Mustard Oil",
+                                "super_saver": false,
+                                "sku_slot_info": {
+                                    "message": null,
+                                    "avail": true,
+                                    "is_avail": true,
+                                    "next_change_time": []
+                                },
+                                "sku_quantity_with_combo": "5000 ml",
+                                "listing_variant": true,
+                                "max_allowed_quantity": 6,
+                                "cart_allowed_quantity": {
+                                    "total": 1,
+                                    "message": "That’s all we have in stock at the moment!"
+                                },
+                                "weight_in_grams": 4550,
+                                "volumetric_weight": 0,
+                                "alcohol_content_percentage": 0,
+                                "container_type": "",
+                                "sub_category_type": "Mustard Oil",
+                                "brand_id": "7066436603b08cba01b1eedd4e884901bf312b70",
+                                "product_name_without_brand": "Mustard Oil",
+                                "sourcing_time": "",
+                                "sourced_from": "",
+                                "display_variant": false,
+                                "last_ordered_at": 0,
+                                "category_id": "36c19d67-8a2b-432e-9753-6be7500f1cc5",
+                                "sku_secondary_quantity": "",
+                                "sub_category": "Mustard Oil",
+                                "super_category": "Edible Oils and Ghee",
+                                "store_id": "1401254",
+                                "external_pharmacy_item": false,
+                                "rx_required": false
+                            }
+                        ],
+                        "available": true,
+                        "categoryId": "36c19d67-8a2b-432e-9753-6be7500f1cc5",
+                        "brand": "P Mark",
+                        "badges": [],
+                        "sosAdsPositionData": null,
+                        "category": "Edible Oils",
+                        "retrievalRank": 7,
+                        "analytics": {
+                            "objectValue": "p&g",
+                            "context": "{\"itemId\":\"MM68HAR80G\",\"slotAvailability\":true}",
+                            "impressionObjectName": "item-impression",
+                            "clickObjectName": "click-item",
+                            "extraFields": {
+                                "searchString": "p&g",
+                                "searchResultType": "LOW_CONFIDENCE"
+                            }
+                        },
+                        "avail": true,
+                        "inStockAndSlotAvailable": true,
+                        "adItem": false,
+                        "product_id": "RP8DOL0RM3",
+                        "display_name": "P Mark Mustard Oil",
+                        "is_avail": true,
+                        "in_stock": true,
+                        "brand_id": "7066436603b08cba01b1eedd4e884901bf312b70",
+                        "product_name_without_brand": "Mustard Oil",
+                        "badge_info": null,
+                        "is_ad_item": false,
+                        "search_result_type": "LOW_CONFIDENCE",
+                        "inline_message": null,
+                        "ad_tracking_context": null,
+                        "item_card_view": "V2",
+                        "super_category": "Edible Oils and Ghee",
+                        "sub_category": "Mustard Oil"
+                    },
+                    {
+                        "variations": [
+                            {
+                                "id": "8MIJB97MB9",
+                                "spin": "1BY95V0NIO",
+                                "price": {
+                                    "mrp": 200,
+                                    "currency": "INR",
+                                    "store_price": 200,
+                                    "offer_price": 84,
+                                    "unit_level_price": "",
+                                    "offer_applied": {
+                                        "offer_id": "8a8bf0b3-77f2-4236-ac07-4c0447642c38",
+                                        "listing_description": "57% OFF",
+                                        "product_description": "57% OFF",
+                                        "super_offer": false,
+                                        "mov_threshold": 0
+                                    }
+                                },
+                                "inventory": {
+                                    "total": 1,
+                                    "remaining": 1,
+                                    "message": "",
+                                    "in_stock": true
+                                },
+                                "images": [
+                                    "eb2dacc5d5c0632070874a1f35097996",
+                                    "ab80c63bb5832c12df9e8c44845d62e7",
+                                    "fd45e9a8b36b557a773605bec3c83ee9",
+                                    "eacaf166cdb8741892b664143872b81b",
+                                    "9d034107c1689fec9477f6275088faa4",
+                                    "bde2807807f9b00131f76b6c22445322"
+                                ],
+                                "quantity": "4 pieces",
+                                "meta": {
+                                    "short_description": "",
+                                    "long_description": "The slimmer bristle tips help clean in-between teeth and along the gumline. Charcoal infused bristles sweeps away food and plague giving you a cleaner mouthfeel with every brush. The toothbrush also comes with a slim rubber grip handle for comfortable brushing. Try Colgate SlimSoft Charcoal toothbrush and experience deep cleaning along the gum line and narrow gaps between teeth.",
+                                    "disclaimer": "",
+                                    "groups": [],
+                                    "coupon_less_offers": [],
+                                    "replacement_applicable": false,
+                                    "return_applicable": false,
+                                    "handpicked": false
+                                },
+                                "dimensions": {
+                                    "length_in_cm": 80,
+                                    "width_in_cm": 1,
+                                    "height_in_cm": 1,
+                                    "volume_in_cc": 80
+                                },
+                                "brand": "Colgate",
+                                "category": "Oral Care",
+                                "displayVariant": false,
+                                "display_name": "Colgate Slim Soft Charcoal Toothbrush - B2G2",
+                                "super_saver": false,
+                                "sku_slot_info": {
+                                    "message": null,
+                                    "avail": true,
+                                    "is_avail": true,
+                                    "next_change_time": []
+                                },
+                                "sku_quantity_with_combo": "4 pieces",
+                                "listing_variant": true,
+                                "max_allowed_quantity": 50,
+                                "cart_allowed_quantity": {
+                                    "total": 7,
+                                    "message": "That’s all we have in stock at the moment!"
+                                },
+                                "weight_in_grams": 40,
+                                "volumetric_weight": 0,
+                                "alcohol_content_percentage": 0,
+                                "container_type": "",
+                                "sub_category_type": "Toothbrush",
+                                "brand_id": "70a9df18e0c842e7bf8adaecf2efd485826c9d9a",
+                                "product_name_without_brand": "Slim Soft Charcoal Toothbrush - B2G2",
+                                "sourcing_time": "",
+                                "sourced_from": "",
+                                "display_variant": false,
+                                "last_ordered_at": 0,
+                                "category_id": "3ad6a817-f71c-4431-a1a2-f71c23cce091",
+                                "sku_secondary_quantity": "",
+                                "sub_category": "Toothbrush",
+                                "super_category": "Hygiene and Wellness",
+                                "store_id": "1401254",
+                                "external_pharmacy_item": false,
+                                "rx_required": false
+                            }
+                        ],
+                        "available": true,
+                        "categoryId": "3ad6a817-f71c-4431-a1a2-f71c23cce091",
+                        "brand": "Colgate",
+                        "badges": [],
+                        "sosAdsPositionData": null,
+                        "category": "Oral Care",
+                        "retrievalRank": 56,
+                        "analytics": {
+                            "objectValue": "p&g",
+                            "context": "{\"itemId\":\"8MIJB97MB9\",\"slotAvailability\":true}",
+                            "impressionObjectName": "item-impression",
+                            "clickObjectName": "click-item",
+                            "extraFields": {
+                                "searchString": "p&g",
+                                "searchResultType": "LOW_CONFIDENCE"
+                            }
+                        },
+                        "avail": true,
+                        "inStockAndSlotAvailable": true,
+                        "adItem": false,
+                        "product_id": "BZOWTS50FT",
+                        "display_name": "Colgate Slim Soft Charcoal Toothbrush - B2G2",
+                        "is_avail": true,
+                        "in_stock": true,
+                        "brand_id": "70a9df18e0c842e7bf8adaecf2efd485826c9d9a",
+                        "product_name_without_brand": "Slim Soft Charcoal Toothbrush - B2G2",
+                        "badge_info": null,
+                        "is_ad_item": false,
+                        "search_result_type": "LOW_CONFIDENCE",
+                        "inline_message": null,
+                        "ad_tracking_context": null,
+                        "item_card_view": "V2",
+                        "super_category": "Hygiene and Wellness",
+                        "sub_category": "Toothbrush"
+                    },
+                    {
+                        "variations": [
+                            {
+                                "id": "X1MSQJFF59",
+                                "spin": "KC9YA664AA",
+                                "price": {
+                                    "mrp": 720,
+                                    "currency": "INR",
+                                    "store_price": 720,
+                                    "offer_price": 612,
+                                    "unit_level_price": "",
+                                    "offer_applied": {
+                                        "offer_id": "c4f78137-ea6d-40a9-9e51-5171f43abf43",
+                                        "listing_description": "15% OFF",
+                                        "product_description": "15% OFF",
+                                        "super_offer": false,
+                                        "mov_threshold": 0
+                                    }
+                                },
+                                "inventory": {
+                                    "total": 1,
+                                    "remaining": 1,
+                                    "message": "",
+                                    "in_stock": true
+                                },
+                                "images": [
+                                    "NI_CATALOG/IMAGES/CIW/2024/8/31/ab9bbdff-3edc-40a9-8135-9c30079f81cc_142281_1.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/8/31/0208d734-7ada-4962-9e2f-8bbc9eaa69d8_142281_2.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/8/31/83d63692-3529-4fe1-8fac-afc68047475e_142281_3.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/8/31/1422f5cb-c446-4838-a3ad-520dc2eda783_142281_4.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/8/31/3ab70770-1a82-4e2e-81b2-6141a76504ec_142281_5.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/8/31/bfcc9d8c-187a-41c4-82fa-8ab54d0f01ba_142281_6.png"
+                                ],
+                                "quantity": "10 kg",
+                                "meta": {
+                                    "short_description": "",
+                                    "long_description": "",
+                                    "disclaimer": "",
+                                    "groups": [],
+                                    "coupon_less_offers": [],
+                                    "replacement_applicable": false,
+                                    "return_applicable": false,
+                                    "handpicked": false
+                                },
+                                "dimensions": {
+                                    "length_in_cm": 20000,
+                                    "width_in_cm": 1,
+                                    "height_in_cm": 1,
+                                    "volume_in_cc": 20000
+                                },
+                                "brand": "Ahaar",
+                                "category": "Atta",
+                                "displayVariant": false,
+                                "display_name": "Ahaar Super M.P Sharbati Wheat Atta",
+                                "super_saver": false,
+                                "sku_slot_info": {
+                                    "message": null,
+                                    "avail": true,
+                                    "is_avail": true,
+                                    "next_change_time": []
+                                },
+                                "sku_quantity_with_combo": "10 kg",
+                                "listing_variant": true,
+                                "max_allowed_quantity": 6,
+                                "cart_allowed_quantity": {
+                                    "total": 1,
+                                    "message": "That’s all we have in stock at the moment!"
+                                },
+                                "weight_in_grams": 10000,
+                                "volumetric_weight": 0,
+                                "alcohol_content_percentage": 0,
+                                "container_type": "",
+                                "sub_category_type": "Wheat Atta",
+                                "brand_id": "6ef3b8954099a6e71292dddac1af23535803ac44",
+                                "product_name_without_brand": "Super M.P Sharbati Wheat Atta",
+                                "sourcing_time": "",
+                                "sourced_from": "",
+                                "display_variant": false,
+                                "last_ordered_at": 0,
+                                "category_id": "71277672-dca8-4180-a5ba-184fb75a215b",
+                                "sku_secondary_quantity": "",
+                                "sub_category": "Wheat Atta",
+                                "super_category": "Atta, Rice and Dals",
+                                "store_id": "1401254",
+                                "external_pharmacy_item": false,
+                                "rx_required": false
+                            }
+                        ],
+                        "available": true,
+                        "categoryId": "71277672-dca8-4180-a5ba-184fb75a215b",
+                        "brand": "Ahaar",
+                        "badges": [],
+                        "sosAdsPositionData": null,
+                        "category": "Atta",
+                        "retrievalRank": 8,
+                        "analytics": {
+                            "objectValue": "p&g",
+                            "context": "{\"itemId\":\"X1MSQJFF59\",\"slotAvailability\":true}",
+                            "impressionObjectName": "item-impression",
+                            "clickObjectName": "click-item",
+                            "extraFields": {
+                                "searchString": "p&g",
+                                "searchResultType": "LOW_CONFIDENCE"
+                            }
+                        },
+                        "avail": true,
+                        "inStockAndSlotAvailable": true,
+                        "adItem": false,
+                        "product_id": "4PW60Q1UZJ",
+                        "display_name": "Ahaar Super M.P Sharbati Wheat Atta",
+                        "is_avail": true,
+                        "in_stock": true,
+                        "brand_id": "6ef3b8954099a6e71292dddac1af23535803ac44",
+                        "product_name_without_brand": "Super M.P Sharbati Wheat Atta",
+                        "badge_info": null,
+                        "is_ad_item": false,
+                        "search_result_type": "LOW_CONFIDENCE",
+                        "inline_message": null,
+                        "ad_tracking_context": null,
+                        "item_card_view": "V2",
+                        "super_category": "Atta, Rice and Dals",
+                        "sub_category": "Wheat Atta"
+                    },
+                    {
+                        "variations": [
+                            {
+                                "id": "IKOFHR5VF9",
+                                "spin": "R3OMLRNXZK",
+                                "price": {
+                                    "mrp": 549,
+                                    "currency": "INR",
+                                    "store_price": 549,
+                                    "offer_price": 412,
+                                    "unit_level_price": "",
+                                    "offer_applied": {
+                                        "offer_id": "c1fb60b9-5b9a-442d-a809-ffaeab8dc5f6",
+                                        "listing_description": "24% OFF",
+                                        "product_description": "24% OFF",
+                                        "super_offer": false,
+                                        "mov_threshold": 0
+                                    }
+                                },
+                                "inventory": {
+                                    "total": 1,
+                                    "remaining": 1,
+                                    "message": "",
+                                    "in_stock": true
+                                },
+                                "images": [
+                                    "NI_CATALOG/IMAGES/CIW/2024/2/29/5819c7c9-5e92-4524-9332-360b814f37bb_MensInnerWearinstamax_8XQ29P13OH_MN.jpg",
+                                    "NI_CATALOG/IMAGES/CIW/2024/2/29/6bced699-bbd8-4f5c-a1dd-7fec71c84d10_MensInnerWearinstamax_8XQ29P13OH_AL1.jpg",
+                                    "NI_CATALOG/IMAGES/CIW/2024/2/29/60628c0c-4ac8-4187-b197-1d6c2db623cd_MensInnerWearinstamax_8XQ29P13OH_AL2.JPG",
+                                    "NI_CATALOG/IMAGES/CIW/2024/2/29/1b19f3cc-5a93-4f3e-b711-7c0c094b5fc6_MensInnerWearinstamax_8XQ29P13OH_AL3.JPG",
+                                    "NI_CATALOG/IMAGES/CIW/2024/2/29/32be51c3-86e9-442e-a0a1-52a233a23edf_MensInnerWearinstamax_8XQ29P13OH_AL4.JPG",
+                                    "NI_CATALOG/IMAGES/CIW/2024/2/29/12994e8e-b737-4ffe-87f3-a3775f78ac61_MensInnerWearinstamax_8XQ29P13OH_AL5.JPG",
+                                    "NI_CATALOG/IMAGES/CIW/2024/2/29/d7391173-e789-4a25-9b37-3c304721899e_MensInnerWearinstamax_8XQ29P13OH_AL6.JPG"
+                                ],
+                                "quantity": "2 pieces",
+                                "meta": {
+                                    "short_description": "",
+                                    "long_description": "",
+                                    "disclaimer": "",
+                                    "groups": [],
+                                    "coupon_less_offers": [],
+                                    "replacement_applicable": false,
+                                    "return_applicable": false,
+                                    "handpicked": false
+                                },
+                                "dimensions": {
+                                    "length_in_cm": 30,
+                                    "width_in_cm": 20,
+                                    "height_in_cm": 10,
+                                    "volume_in_cc": 6000
+                                },
+                                "brand": "Levi's",
+                                "category": "Men's Inner Wear",
+                                "displayVariant": false,
+                                "display_name": "Levi's Classic Vest for Men with Side Branding (White P2-Pack of 2) - 012-Piece",
+                                "super_saver": false,
+                                "sku_slot_info": {
+                                    "message": null,
+                                    "avail": true,
+                                    "is_avail": true,
+                                    "next_change_time": []
+                                },
+                                "sku_quantity_with_combo": "2 pieces",
+                                "listing_variant": true,
+                                "max_allowed_quantity": 6,
+                                "cart_allowed_quantity": {
+                                    "total": 1,
+                                    "message": "That’s all we have in stock at the moment!"
+                                },
+                                "weight_in_grams": 300,
+                                "volumetric_weight": 0,
+                                "alcohol_content_percentage": 0,
+                                "container_type": "",
+                                "sub_category_type": "",
+                                "brand_id": "d5cce0843a143bb11bd532b05ea64e92da6fece1",
+                                "product_name_without_brand": "Classic Vest for Men with Side Branding (White P2-Pack of 2) - 012-Piece",
+                                "sourcing_time": "",
+                                "sourced_from": "",
+                                "display_variant": false,
+                                "last_ordered_at": 0,
+                                "category_id": "0fd94852-13c4-4b68-9cc7-84f7dc81d354",
+                                "sku_secondary_quantity": "",
+                                "sub_category": "Vest",
+                                "super_category": "Clothing",
+                                "store_id": "1401254",
+                                "external_pharmacy_item": false,
+                                "rx_required": false
+                            }
+                        ],
+                        "available": true,
+                        "categoryId": "0fd94852-13c4-4b68-9cc7-84f7dc81d354",
+                        "brand": "Levi's",
+                        "badges": [],
+                        "sosAdsPositionData": null,
+                        "category": "Men's Inner Wear",
+                        "retrievalRank": 17,
+                        "analytics": {
+                            "objectValue": "p&g",
+                            "context": "{\"itemId\":\"IKOFHR5VF9\",\"slotAvailability\":true}",
+                            "impressionObjectName": "item-impression",
+                            "clickObjectName": "click-item",
+                            "extraFields": {
+                                "searchString": "p&g",
+                                "searchResultType": "LOW_CONFIDENCE"
+                            }
+                        },
+                        "avail": true,
+                        "inStockAndSlotAvailable": true,
+                        "adItem": false,
+                        "product_id": "39GCUG6D10",
+                        "display_name": "Levi's Classic Vest for Men with Side Branding (White P2-Pack of 2) - 012-Piece",
+                        "is_avail": true,
+                        "in_stock": true,
+                        "brand_id": "d5cce0843a143bb11bd532b05ea64e92da6fece1",
+                        "product_name_without_brand": "Classic Vest for Men with Side Branding (White P2-Pack of 2) - 012-Piece",
+                        "badge_info": null,
+                        "is_ad_item": false,
+                        "search_result_type": "LOW_CONFIDENCE",
+                        "inline_message": null,
+                        "ad_tracking_context": null,
+                        "item_card_view": "V2",
+                        "super_category": "Clothing",
+                        "sub_category": "Vest"
+                    },
+                    {
+                        "variations": [
+                            {
+                                "id": "0XUBTPPMSO",
+                                "spin": "OABS6AHKDO",
+                                "price": {
+                                    "mrp": 699,
+                                    "currency": "INR",
+                                    "store_price": 699,
+                                    "offer_price": 377,
+                                    "unit_level_price": "",
+                                    "offer_applied": {
+                                        "offer_id": "6c15cf02-4197-47b8-819b-a92a6030a5bb",
+                                        "listing_description": "46% OFF",
+                                        "product_description": "46% OFF",
+                                        "super_offer": false,
+                                        "mov_threshold": 0
+                                    }
+                                },
+                                "inventory": {
+                                    "total": 1,
+                                    "remaining": 1,
+                                    "message": "",
+                                    "in_stock": true
+                                },
+                                "images": [
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/29/ba35423c-7a6d-4c2d-a850-165d5d9a9cb7_912742_1.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/29/8074171c-c0b4-401b-b8df-92305bcc7f19_912742_2.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/29/d68fdc79-48db-4782-8c48-1f47cb310f69_912742_3.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/29/332e05ad-915d-4367-9f6e-fe027f4327f9_912742_4.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/29/204fa70a-106e-44a8-86c1-9ce528fef21b_912742_5.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/29/151e26fa-00a1-4c25-8853-99bc95641562_912742_6.png"
+                                ],
+                                "quantity": "30 ml",
+                                "meta": {
+                                    "short_description": "",
+                                    "long_description": "",
+                                    "disclaimer": "",
+                                    "groups": [],
+                                    "coupon_less_offers": [],
+                                    "replacement_applicable": false,
+                                    "return_applicable": false,
+                                    "handpicked": false
+                                },
+                                "dimensions": {
+                                    "length_in_cm": 12,
+                                    "width_in_cm": 4,
+                                    "height_in_cm": 2,
+                                    "volume_in_cc": 96
+                                },
+                                "brand": "Cos-IQ",
+                                "category": "Face and Lip Care",
+                                "displayVariant": false,
+                                "display_name": "Cos-IQ SPF 50 Sunscreen Serum P+++",
+                                "super_saver": false,
+                                "sku_slot_info": {
+                                    "message": null,
+                                    "avail": true,
+                                    "is_avail": true,
+                                    "next_change_time": []
+                                },
+                                "sku_quantity_with_combo": "30 ml",
+                                "listing_variant": true,
+                                "max_allowed_quantity": 6,
+                                "cart_allowed_quantity": {
+                                    "total": 2,
+                                    "message": "That’s all we have in stock at the moment!"
+                                },
+                                "weight_in_grams": 30,
+                                "volumetric_weight": 0,
+                                "alcohol_content_percentage": 0,
+                                "container_type": "",
+                                "sub_category_type": "Sunscreen Serum",
+                                "brand_id": "c1df7adc895f5beb25857cdd83a51490ff810891",
+                                "product_name_without_brand": "SPF 50 Sunscreen Serum P+++",
+                                "sourcing_time": "",
+                                "sourced_from": "",
+                                "display_variant": false,
+                                "last_ordered_at": 0,
+                                "category_id": "c10e3c56-f0aa-4dc2-8e2f-3af473ffcf4c",
+                                "sku_secondary_quantity": "",
+                                "sub_category": "Face Care",
+                                "super_category": "Beauty and Grooming",
+                                "store_id": "1401254",
+                                "external_pharmacy_item": false,
+                                "rx_required": false
+                            }
+                        ],
+                        "available": true,
+                        "categoryId": "c10e3c56-f0aa-4dc2-8e2f-3af473ffcf4c",
+                        "brand": "Cos-IQ",
+                        "badges": [],
+                        "sosAdsPositionData": null,
+                        "category": "Face and Lip Care",
+                        "retrievalRank": 4,
+                        "analytics": {
+                            "objectValue": "p&g",
+                            "context": "{\"itemId\":\"0XUBTPPMSO\",\"slotAvailability\":true}",
+                            "impressionObjectName": "item-impression",
+                            "clickObjectName": "click-item",
+                            "extraFields": {
+                                "searchString": "p&g",
+                                "searchResultType": "LOW_CONFIDENCE"
+                            }
+                        },
+                        "avail": true,
+                        "inStockAndSlotAvailable": true,
+                        "adItem": false,
+                        "product_id": "EE7MYV62I4",
+                        "display_name": "Cos-IQ SPF 50 Sunscreen Serum P+++",
+                        "is_avail": true,
+                        "in_stock": true,
+                        "brand_id": "c1df7adc895f5beb25857cdd83a51490ff810891",
+                        "product_name_without_brand": "SPF 50 Sunscreen Serum P+++",
+                        "badge_info": null,
+                        "is_ad_item": false,
+                        "search_result_type": "LOW_CONFIDENCE",
+                        "inline_message": null,
+                        "ad_tracking_context": null,
+                        "item_card_view": "V2",
+                        "super_category": "Beauty and Grooming",
+                        "sub_category": "Face Care"
+                    },
+                    {
+                        "variations": [
+                            {
+                                "id": "0TPXR2RLH0",
+                                "spin": "7X4E7IPJO4",
+                                "price": {
+                                    "mrp": 749,
+                                    "currency": "INR",
+                                    "store_price": 749,
+                                    "offer_price": 629,
+                                    "unit_level_price": "",
+                                    "offer_applied": {
+                                        "offer_id": "5b79d4e1-4764-4452-9817-3fd7a363f542",
+                                        "listing_description": "16% OFF",
+                                        "product_description": "16% OFF",
+                                        "super_offer": false,
+                                        "mov_threshold": 0
+                                    }
+                                },
+                                "inventory": {
+                                    "total": 1,
+                                    "remaining": 1,
+                                    "message": "",
+                                    "in_stock": true
+                                },
+                                "images": [
+                                    "NI_CATALOG/IMAGES/CIW/2024/9/22/9e290efb-a8b3-4285-b200-d0b08dbe609a_7X4E7IPJO4_mn.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/8/3/e8414763-eb85-4712-bd4d-994b8bb816e6_7X4E7IPJO4_AL1.jpg",
+                                    "qt751biciq4fj2oopgyr"
+                                ],
+                                "quantity": "100 g",
+                                "meta": {
+                                    "short_description": "Intense, luxurious Coffee",
+                                    "long_description": "",
+                                    "disclaimer": "",
+                                    "groups": [],
+                                    "coupon_less_offers": [],
+                                    "replacement_applicable": false,
+                                    "return_applicable": false,
+                                    "handpicked": true
+                                },
+                                "dimensions": {
+                                    "length_in_cm": 6,
+                                    "width_in_cm": 6,
+                                    "height_in_cm": 19,
+                                    "volume_in_cc": 684
+                                },
+                                "brand": "Davidoff",
+                                "category": "Coffee",
+                                "displayVariant": true,
+                                "display_name": "Davidoff Rich Aroma Instant Coffee 10/12 Intensity - 100% Arabica, 3.53 oz 邃ｮ 100g, Granule",
+                                "super_saver": false,
+                                "sku_slot_info": {
+                                    "message": null,
+                                    "avail": true,
+                                    "is_avail": true,
+                                    "next_change_time": []
+                                },
+                                "sku_quantity_with_combo": "100 g",
+                                "listing_variant": true,
+                                "max_allowed_quantity": 50,
+                                "cart_allowed_quantity": {
+                                    "total": 2,
+                                    "message": "That’s all we have in stock at the moment!"
+                                },
+                                "weight_in_grams": 100,
+                                "volumetric_weight": 0,
+                                "alcohol_content_percentage": 0,
+                                "container_type": "",
+                                "sub_category_type": "Instant Coffee",
+                                "brand_id": "70b1724c32db8e89cb569652e18618cb8b8849db",
+                                "product_name_without_brand": "Rich Aroma Instant Coffee 10/12 Intensity - 100% Arabica, 3.53 oz 邃ｮ 100g, Granule",
+                                "sourcing_time": "",
+                                "sourced_from": "",
+                                "display_variant": true,
+                                "last_ordered_at": 0,
+                                "category_id": "ff66cdbb-8983-4a9c-92bb-fa404c560b28",
+                                "sku_secondary_quantity": "",
+                                "sub_category": "Instant Coffee",
+                                "super_category": "Tea, Coffee and More",
+                                "store_id": "1401254",
+                                "external_pharmacy_item": false,
+                                "rx_required": false
+                            }
+                        ],
+                        "available": true,
+                        "categoryId": "ff66cdbb-8983-4a9c-92bb-fa404c560b28",
+                        "brand": "Davidoff",
+                        "badges": [
+                            {
+                                "badge_type": "HANDPICKED",
+                                "badge_text": "Handpicked",
+                                "badge_color": "#9E1E62",
+                                "text_color": "#FFFFFF",
+                                "icon": {
+                                    "creative_id": "native-instamart-assets/hp/Handpicked_16x16_White_Filled@5x.png",
+                                    "width": 0,
+                                    "height": 0
+                                }
+                            }
+                        ],
+                        "sosAdsPositionData": null,
+                        "category": "Coffee",
+                        "retrievalRank": 50,
+                        "analytics": {
+                            "objectValue": "p&g",
+                            "context": "{\"itemId\":\"0TPXR2RLH0\",\"slotAvailability\":true}",
+                            "impressionObjectName": "item-impression",
+                            "clickObjectName": "click-item",
+                            "extraFields": {
+                                "searchString": "p&g",
+                                "searchResultType": "LOW_CONFIDENCE"
+                            }
+                        },
+                        "avail": true,
+                        "inStockAndSlotAvailable": true,
+                        "adItem": false,
+                        "product_id": "KCCH8Q3Z4U",
+                        "display_name": "Davidoff Rich Aroma Instant Coffee 10/12 Intensity - 100% Arabica, 3.53 oz 邃ｮ 100g, Granule",
+                        "is_avail": true,
+                        "in_stock": true,
+                        "brand_id": "70b1724c32db8e89cb569652e18618cb8b8849db",
+                        "product_name_without_brand": "Rich Aroma Instant Coffee 10/12 Intensity - 100% Arabica, 3.53 oz 邃ｮ 100g, Granule",
+                        "badge_info": {
+                            "badge_type": "HANDPICKED",
+                            "badge_text": "Handpicked",
+                            "badge_color": "#9E1E62",
+                            "text_color": "#FFFFFF",
+                            "icon": {
+                                "creative_id": "native-instamart-assets/hp/Handpicked_16x16_White_Filled@5x.png",
+                                "width": 0,
+                                "height": 0
+                            }
+                        },
+                        "is_ad_item": false,
+                        "search_result_type": "LOW_CONFIDENCE",
+                        "inline_message": null,
+                        "ad_tracking_context": null,
+                        "item_card_view": "V2",
+                        "super_category": "Tea, Coffee and More",
+                        "sub_category": "Instant Coffee"
+                    },
+                    {
+                        "variations": [
+                            {
+                                "id": "D55O8ZM27N",
+                                "spin": "P8GG6PTMQQ",
+                                "price": {
+                                    "mrp": 745,
+                                    "currency": "INR",
+                                    "store_price": 745,
+                                    "offer_price": 633,
+                                    "unit_level_price": "",
+                                    "offer_applied": {
+                                        "offer_id": "03a378c1-d40f-421c-b543-55da52e7c331",
+                                        "listing_description": "15% OFF",
+                                        "product_description": "15% OFF",
+                                        "super_offer": false,
+                                        "mov_threshold": 0
+                                    }
+                                },
+                                "inventory": {
+                                    "total": 1,
+                                    "remaining": 1,
+                                    "message": "",
+                                    "in_stock": true
+                                },
+                                "images": [
+                                    "NI_CATALOG/IMAGES/CIW/2024/11/28/8fadf6e7-9219-416a-8b4b-2b0ffda757f3_388831_1.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/11/28/f53f5aa5-54bb-4418-a46d-774242a86d20_388831_2.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/11/28/82a07c35-0c37-4515-98a7-dc1ed3a56c20_388831_3.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/11/28/5712ca46-8616-4aea-b9a2-495a5457f282_388831_4.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/11/28/a6c1594e-570e-4f75-aa9f-5d35978b944c_388831_5.png"
+                                ],
+                                "quantity": "50 g",
+                                "meta": {
+                                    "short_description": "",
+                                    "long_description": "",
+                                    "disclaimer": "",
+                                    "groups": [],
+                                    "coupon_less_offers": [],
+                                    "replacement_applicable": false,
+                                    "return_applicable": false,
+                                    "handpicked": false
+                                },
+                                "dimensions": {
+                                    "length_in_cm": 7,
+                                    "width_in_cm": 7,
+                                    "height_in_cm": 7,
+                                    "volume_in_cc": 343
+                                },
+                                "brand": "Lotus Professional",
+                                "category": "Face Cream",
+                                "displayVariant": false,
+                                "display_name": "Lotus Professional PHYTORx WHITENING & BRIGHTENING CREME SPF 25 | PA+++ | Radiant skin | Even skin tone | Pigmentation | Paraben Free | 50g",
+                                "super_saver": false,
+                                "sku_slot_info": {
+                                    "message": null,
+                                    "avail": true,
+                                    "is_avail": true,
+                                    "next_change_time": []
+                                },
+                                "sku_quantity_with_combo": "50 g",
+                                "listing_variant": true,
+                                "max_allowed_quantity": 4,
+                                "cart_allowed_quantity": {
+                                    "total": 1,
+                                    "message": "That’s all we have in stock at the moment!"
+                                },
+                                "weight_in_grams": 50,
+                                "volumetric_weight": 0,
+                                "alcohol_content_percentage": 0,
+                                "container_type": "",
+                                "sub_category_type": "Face Cream",
+                                "brand_id": "53a0a41d1f7f6b00887291e32ff483e102a6a4d0",
+                                "product_name_without_brand": "PHYTORx WHITENING & BRIGHTENING CREME SPF 25 | PA+++ | Radiant skin | Even skin tone | Pigmentation | Paraben Free | 50g",
+                                "sourcing_time": "",
+                                "sourced_from": "",
+                                "display_variant": false,
+                                "last_ordered_at": 0,
+                                "category_id": "3b62e605-e7f4-442d-8739-dec9c0d65a8f",
+                                "sku_secondary_quantity": "",
+                                "sub_category": "Sunscreen",
+                                "super_category": "Bath Body and Hair",
+                                "store_id": "1401254",
+                                "external_pharmacy_item": false,
+                                "rx_required": false
+                            }
+                        ],
+                        "available": true,
+                        "categoryId": "3b62e605-e7f4-442d-8739-dec9c0d65a8f",
+                        "brand": "Lotus Professional",
+                        "badges": [],
+                        "sosAdsPositionData": null,
+                        "category": "Face Cream",
+                        "retrievalRank": 58,
+                        "analytics": {
+                            "objectValue": "p&g",
+                            "context": "{\"itemId\":\"D55O8ZM27N\",\"slotAvailability\":true}",
+                            "impressionObjectName": "item-impression",
+                            "clickObjectName": "click-item",
+                            "extraFields": {
+                                "searchString": "p&g",
+                                "searchResultType": "LOW_CONFIDENCE"
+                            }
+                        },
+                        "avail": true,
+                        "inStockAndSlotAvailable": true,
+                        "adItem": false,
+                        "product_id": "JCTJH8H9MZ",
+                        "display_name": "Lotus Professional PHYTORx WHITENING & BRIGHTENING CREME SPF 25 | PA+++ | Radiant skin | Even skin tone | Pigmentation | Paraben Free | 50g",
+                        "is_avail": true,
+                        "in_stock": true,
+                        "brand_id": "53a0a41d1f7f6b00887291e32ff483e102a6a4d0",
+                        "product_name_without_brand": "PHYTORx WHITENING & BRIGHTENING CREME SPF 25 | PA+++ | Radiant skin | Even skin tone | Pigmentation | Paraben Free | 50g",
+                        "badge_info": null,
+                        "is_ad_item": false,
+                        "search_result_type": "LOW_CONFIDENCE",
+                        "inline_message": null,
+                        "ad_tracking_context": null,
+                        "item_card_view": "V2",
+                        "super_category": "Bath Body and Hair",
+                        "sub_category": "Sunscreen"
+                    },
+                    {
+                        "variations": [
+                            {
+                                "id": "Q1VQHZ22U8",
+                                "spin": "S3JZQ2L0Y4",
+                                "price": {
+                                    "mrp": 1225,
+                                    "currency": "INR",
+                                    "store_price": 1225,
+                                    "offer_price": 896,
+                                    "unit_level_price": "",
+                                    "offer_applied": {
+                                        "offer_id": "1d0fcc9f-9613-47d5-a8b5-3cb3f719fc93",
+                                        "listing_description": "26% OFF",
+                                        "product_description": "26% OFF",
+                                        "super_offer": false,
+                                        "mov_threshold": 0
+                                    }
+                                },
+                                "inventory": {
+                                    "total": 1,
+                                    "remaining": 1,
+                                    "message": "",
+                                    "in_stock": true
+                                },
+                                "images": [
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/2/3d6e88ef-2ca2-4b0f-8428-295544a9cfbe_643831_1.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/2/c41ceca6-19b0-405d-bacd-3151ae142882_643831_2.png"
+                                ],
+                                "quantity": "5 ltr",
+                                "meta": {
+                                    "short_description": "",
+                                    "long_description": "",
+                                    "disclaimer": "",
+                                    "groups": [],
+                                    "coupon_less_offers": [],
+                                    "replacement_applicable": false,
+                                    "return_applicable": false,
+                                    "handpicked": false
+                                },
+                                "dimensions": {
+                                    "length_in_cm": 5,
+                                    "width_in_cm": 3,
+                                    "height_in_cm": 10,
+                                    "volume_in_cc": 150
+                                },
+                                "brand": "P Mark",
+                                "category": "Edible Oils",
+                                "displayVariant": false,
+                                "display_name": "P MARK SINCE 1933 Mustard Oil",
+                                "super_saver": false,
+                                "sku_slot_info": {
+                                    "message": null,
+                                    "avail": true,
+                                    "is_avail": true,
+                                    "next_change_time": []
+                                },
+                                "sku_quantity_with_combo": "5 ltr",
+                                "listing_variant": true,
+                                "max_allowed_quantity": 5,
+                                "cart_allowed_quantity": {
+                                    "total": 2,
+                                    "message": "That’s all we have in stock at the moment!"
+                                },
+                                "weight_in_grams": 5000,
+                                "volumetric_weight": 0,
+                                "alcohol_content_percentage": 0,
+                                "container_type": "",
+                                "sub_category_type": "",
+                                "brand_id": "7066436603b08cba01b1eedd4e884901bf312b70",
+                                "product_name_without_brand": "P MARK SINCE 1933 Mustard Oil",
+                                "sourcing_time": "",
+                                "sourced_from": "",
+                                "display_variant": false,
+                                "last_ordered_at": 0,
+                                "category_id": "36c19d67-8a2b-432e-9753-6be7500f1cc5",
+                                "sku_secondary_quantity": "",
+                                "sub_category": "Mustard Oil",
+                                "super_category": "Edible Oils and Ghee",
+                                "store_id": "1401254",
+                                "external_pharmacy_item": false,
+                                "rx_required": false
+                            }
+                        ],
+                        "available": true,
+                        "categoryId": "36c19d67-8a2b-432e-9753-6be7500f1cc5",
+                        "brand": "P Mark",
+                        "badges": [],
+                        "sosAdsPositionData": null,
+                        "category": "Edible Oils",
+                        "retrievalRank": 12,
+                        "analytics": {
+                            "objectValue": "p&g",
+                            "context": "{\"itemId\":\"Q1VQHZ22U8\",\"slotAvailability\":true}",
+                            "impressionObjectName": "item-impression",
+                            "clickObjectName": "click-item",
+                            "extraFields": {
+                                "searchString": "p&g",
+                                "searchResultType": "LOW_CONFIDENCE"
+                            }
+                        },
+                        "avail": true,
+                        "inStockAndSlotAvailable": true,
+                        "adItem": false,
+                        "product_id": "AQOWFJMROV",
+                        "display_name": "P MARK SINCE 1933 Mustard Oil",
+                        "is_avail": true,
+                        "in_stock": true,
+                        "brand_id": "7066436603b08cba01b1eedd4e884901bf312b70",
+                        "product_name_without_brand": "P MARK SINCE 1933 Mustard Oil",
+                        "badge_info": null,
+                        "is_ad_item": false,
+                        "search_result_type": "LOW_CONFIDENCE",
+                        "inline_message": null,
+                        "ad_tracking_context": null,
+                        "item_card_view": "V2",
+                        "super_category": "Edible Oils and Ghee",
+                        "sub_category": "Mustard Oil"
+                    },
+                    {
+                        "variations": [
+                            {
+                                "id": "RKGU96MXTJ",
+                                "spin": "F3MRB8H27K",
+                                "price": {
+                                    "mrp": 675,
+                                    "currency": "INR",
+                                    "store_price": 675,
+                                    "offer_price": 675,
+                                    "unit_level_price": "",
+                                    "offer_applied": {
+                                        "offer_id": "",
+                                        "listing_description": "",
+                                        "product_description": "",
+                                        "super_offer": false,
+                                        "mov_threshold": 0
+                                    }
+                                },
+                                "inventory": {
+                                    "total": 1,
+                                    "remaining": 1,
+                                    "message": "",
+                                    "in_stock": true
+                                },
+                                "images": [
+                                    "NI_CATALOG/IMAGES/CIW/2024/11/26/26b2593c-6051-4a9c-8947-18c75c8bf7f1_747887_1.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/11/26/bcab12c8-588d-4820-baeb-85b49200c3ff_747887_2.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/11/26/d4e79f85-287f-44d3-ac05-15d8f93cc415_747887_3.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/11/27/4df0ffa3-ed56-4dda-bd7a-bc926b05156c_747887_4.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/11/26/cdad3094-2d91-48a2-975a-536bf6762e6e_747887_5.png"
+                                ],
+                                "quantity": "400 g",
+                                "meta": {
+                                    "short_description": "",
+                                    "long_description": "",
+                                    "disclaimer": "",
+                                    "groups": [],
+                                    "coupon_less_offers": [],
+                                    "replacement_applicable": false,
+                                    "return_applicable": false,
+                                    "handpicked": false
+                                },
+                                "dimensions": {
+                                    "length_in_cm": 800,
+                                    "width_in_cm": 1,
+                                    "height_in_cm": 1,
+                                    "volume_in_cc": 800
+                                },
+                                "brand": "Similac",
+                                "category": "Baby Food and Formula",
+                                "displayVariant": false,
+                                "display_name": "Similac Isomil Soy Infant Formula - 400g Tin",
+                                "super_saver": false,
+                                "sku_slot_info": {
+                                    "message": null,
+                                    "avail": true,
+                                    "is_avail": true,
+                                    "next_change_time": []
+                                },
+                                "sku_quantity_with_combo": "400 g",
+                                "listing_variant": true,
+                                "max_allowed_quantity": 6,
+                                "cart_allowed_quantity": {
+                                    "total": 1,
+                                    "message": "That’s all we have in stock at the moment!"
+                                },
+                                "weight_in_grams": 400,
+                                "volumetric_weight": 0,
+                                "alcohol_content_percentage": 0,
+                                "container_type": "",
+                                "sub_category_type": "",
+                                "brand_id": "c0f481f334fe45b925b4970a2f5019ef496a07fc",
+                                "product_name_without_brand": "Isomil Soy Infant Formula - 400g Tin",
+                                "sourcing_time": "",
+                                "sourced_from": "",
+                                "display_variant": false,
+                                "last_ordered_at": 0,
+                                "category_id": "03a9d113-072d-43cc-9065-0831d4c42666",
+                                "sku_secondary_quantity": "",
+                                "sub_category": "Baby Formula",
+                                "super_category": "Baby Care",
+                                "store_id": "1401254",
+                                "external_pharmacy_item": false,
+                                "rx_required": false
+                            }
+                        ],
+                        "available": true,
+                        "categoryId": "03a9d113-072d-43cc-9065-0831d4c42666",
+                        "brand": "Similac",
+                        "badges": [],
+                        "sosAdsPositionData": null,
+                        "category": "Baby Food and Formula",
+                        "retrievalRank": 22,
+                        "analytics": {
+                            "objectValue": "p&g",
+                            "context": "{\"itemId\":\"RKGU96MXTJ\",\"slotAvailability\":true}",
+                            "impressionObjectName": "item-impression",
+                            "clickObjectName": "click-item",
+                            "extraFields": {
+                                "searchString": "p&g",
+                                "searchResultType": "LOW_CONFIDENCE"
+                            }
+                        },
+                        "avail": true,
+                        "inStockAndSlotAvailable": true,
+                        "adItem": false,
+                        "product_id": "KUT6AL2YUP",
+                        "display_name": "Similac Isomil Soy Infant Formula - 400g Tin",
+                        "is_avail": true,
+                        "in_stock": true,
+                        "brand_id": "c0f481f334fe45b925b4970a2f5019ef496a07fc",
+                        "product_name_without_brand": "Isomil Soy Infant Formula - 400g Tin",
+                        "badge_info": null,
+                        "is_ad_item": false,
+                        "search_result_type": "LOW_CONFIDENCE",
+                        "inline_message": null,
+                        "ad_tracking_context": null,
+                        "item_card_view": "V2",
+                        "super_category": "Baby Care",
+                        "sub_category": "Baby Formula"
+                    },
+                    {
+                        "variations": [
+                            {
+                                "id": "NY4TF26JUU",
+                                "spin": "Q76DA83UGW",
+                                "price": {
+                                    "mrp": 4499,
+                                    "currency": "INR",
+                                    "store_price": 4499,
+                                    "offer_price": 1599,
+                                    "unit_level_price": "",
+                                    "offer_applied": {
+                                        "offer_id": "d14137ce-43c9-4a9c-8ec2-612e84bef395",
+                                        "listing_description": "64% OFF",
+                                        "product_description": "64% OFF",
+                                        "super_offer": false,
+                                        "mov_threshold": 0
+                                    }
+                                },
+                                "inventory": {
+                                    "total": 1,
+                                    "remaining": 1,
+                                    "message": "",
+                                    "in_stock": true
+                                },
+                                "images": [
+                                    "NI_CATALOG/IMAGES/CIW/2024/5/24/fd4ad106-2a4a-4d1f-b927-bba8e1ed2529_HomeElectricalAppliances_Q76DA83UGW_MN.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/5/24/00e27d6b-f7de-4672-a319-21a10370320b_HomeElectricalAppliances_Q76DA83UGW_AL1.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/5/24/74e91c03-99de-4e2d-935d-44357a34edb5_HomeElectricalAppliances_Q76DA83UGW_AL2.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/5/24/2e4866cf-a615-44bd-8de4-d0350ecaa3e8_HomeElectricalAppliances_Q76DA83UGW_AL3.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/5/24/4bb111e5-e242-4bac-a399-628fd44b12f8_HomeElectricalAppliances_Q76DA83UGW_AL4.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/5/24/0fcbe6d5-9c0f-4880-b54a-f2e0b9d55068_HomeElectricalAppliances_Q76DA83UGW_AL5.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/7/26/da20869a-0ef7-46fb-aabb-2856db58a912_HomeElectricalAppliances_31F6D0HPXK_AL6.png"
+                                ],
+                                "quantity": "1 unit",
+                                "meta": {
+                                    "short_description": "",
+                                    "long_description": "",
+                                    "disclaimer": "",
+                                    "groups": [],
+                                    "coupon_less_offers": [],
+                                    "replacement_applicable": false,
+                                    "return_applicable": false,
+                                    "handpicked": false
+                                },
+                                "dimensions": {
+                                    "length_in_cm": 878,
+                                    "width_in_cm": 1,
+                                    "height_in_cm": 1,
+                                    "volume_in_cc": 878
+                                },
+                                "brand": "TP-link",
+                                "category": "Cameras and Accessories",
+                                "displayVariant": false,
+                                "display_name": "TP-Link Tapo C210 360° 2K 3MP 1296p Video Pan/Tilt Smart Wi-Fi Security Camera  - White",
+                                "super_saver": false,
+                                "sku_slot_info": {
+                                    "message": null,
+                                    "avail": true,
+                                    "is_avail": true,
+                                    "next_change_time": []
+                                },
+                                "sku_quantity_with_combo": "1 unit",
+                                "listing_variant": true,
+                                "max_allowed_quantity": 6,
+                                "cart_allowed_quantity": {
+                                    "total": 1,
+                                    "message": "That’s all we have in stock at the moment!"
+                                },
+                                "weight_in_grams": 439,
+                                "volumetric_weight": 0,
+                                "alcohol_content_percentage": 0,
+                                "container_type": "",
+                                "sub_category_type": "Camera",
+                                "brand_id": "6b0711be3ca4ed5db03d2418c27fe04cb159c156",
+                                "product_name_without_brand": "TP-Link Tapo C210 360° 2K 3MP 1296p Video Pan/Tilt Smart Wi-Fi Security Camera  - White",
+                                "sourcing_time": "",
+                                "sourced_from": "",
+                                "display_variant": false,
+                                "last_ordered_at": 0,
+                                "category_id": "01b621e3-7126-496b-8abc-dce0e414d24d",
+                                "sku_secondary_quantity": "",
+                                "sub_category": "Security Cameras",
+                                "super_category": "Electronics and Appliances",
+                                "store_id": "1401254",
+                                "external_pharmacy_item": false,
+                                "rx_required": false
+                            }
+                        ],
+                        "available": true,
+                        "categoryId": "01b621e3-7126-496b-8abc-dce0e414d24d",
+                        "brand": "TP-link",
+                        "badges": [],
+                        "sosAdsPositionData": null,
+                        "category": "Cameras and Accessories",
+                        "retrievalRank": 10,
+                        "analytics": {
+                            "objectValue": "p&g",
+                            "context": "{\"itemId\":\"NY4TF26JUU\",\"slotAvailability\":true}",
+                            "impressionObjectName": "item-impression",
+                            "clickObjectName": "click-item",
+                            "extraFields": {
+                                "searchString": "p&g",
+                                "searchResultType": "LOW_CONFIDENCE"
+                            }
+                        },
+                        "avail": true,
+                        "inStockAndSlotAvailable": true,
+                        "adItem": false,
+                        "product_id": "ARVCVY7ONP",
+                        "display_name": "TP-Link Tapo C210 360° 2K 3MP 1296p Video Pan/Tilt Smart Wi-Fi Security Camera  - White",
+                        "is_avail": true,
+                        "in_stock": true,
+                        "brand_id": "6b0711be3ca4ed5db03d2418c27fe04cb159c156",
+                        "product_name_without_brand": "TP-Link Tapo C210 360° 2K 3MP 1296p Video Pan/Tilt Smart Wi-Fi Security Camera  - White",
+                        "badge_info": null,
+                        "is_ad_item": false,
+                        "search_result_type": "LOW_CONFIDENCE",
+                        "inline_message": null,
+                        "ad_tracking_context": null,
+                        "item_card_view": "V2",
+                        "super_category": "Electronics and Appliances",
+                        "sub_category": "Security Cameras"
+                    },
+                    {
+                        "variations": [
+                            {
+                                "id": "GMV12U4ORJ",
+                                "spin": "31F6D0HPXK",
+                                "price": {
+                                    "mrp": 8199,
+                                    "currency": "INR",
+                                    "store_price": 8199,
+                                    "offer_price": 3399,
+                                    "unit_level_price": "",
+                                    "offer_applied": {
+                                        "offer_id": "966abd7d-b7c9-4e52-a197-b40139f6e61b",
+                                        "listing_description": "58% OFF",
+                                        "product_description": "58% OFF",
+                                        "super_offer": false,
+                                        "mov_threshold": 0
+                                    }
+                                },
+                                "inventory": {
+                                    "total": 1,
+                                    "remaining": 1,
+                                    "message": "",
+                                    "in_stock": true
+                                },
+                                "images": [
+                                    "NI_CATALOG/IMAGES/CIW/2025/1/7/0d076c72-6c35-4e8e-836a-f238784c8161_71515_1.jpg",
+                                    "NI_CATALOG/IMAGES/CIW/2025/1/7/07fdac08-8b3c-4631-9c47-30929ad53a6d_71515_2.jpg",
+                                    "NI_CATALOG/IMAGES/CIW/2025/1/7/24808d56-9f0a-4b71-b254-1bbefd772cfc_71515_3.jpg",
+                                    "NI_CATALOG/IMAGES/CIW/2025/1/7/84f4df59-cead-49d2-aff7-3a3c34bcd63a_71515_4.jpg",
+                                    "NI_CATALOG/IMAGES/CIW/2025/1/7/4eb6dffd-675d-475b-b9d8-18c64f336307_71515_5.jpg",
+                                    "NI_CATALOG/IMAGES/CIW/2025/1/7/0dd7a528-d19a-4a13-8aac-608d7ef88986_71515_6.jpg",
+                                    "NI_CATALOG/IMAGES/CIW/2025/1/7/046a0a2d-6560-41fb-95bc-1374f915fbc8_71515_7.jpg",
+                                    "NI_CATALOG/IMAGES/CIW/2025/1/7/559c9c5d-2a73-4a5f-8143-6a738e816033_71515_8.jpg",
+                                    "NI_CATALOG/IMAGES/CIW/2025/1/7/77193cd7-4c21-4e67-b1c0-d001dc33c0e8_71515_9.jpg",
+                                    "NI_CATALOG/IMAGES/CIW/2025/1/7/e1bea6cd-7269-4682-96fe-cab179cb598f_71515_10.jpg"
+                                ],
+                                "quantity": "1 unit",
+                                "meta": {
+                                    "short_description": "",
+                                    "long_description": "",
+                                    "disclaimer": "",
+                                    "groups": [],
+                                    "coupon_less_offers": [],
+                                    "replacement_applicable": false,
+                                    "return_applicable": false,
+                                    "handpicked": false
+                                },
+                                "dimensions": {
+                                    "length_in_cm": 988,
+                                    "width_in_cm": 1,
+                                    "height_in_cm": 1,
+                                    "volume_in_cc": 988
+                                },
+                                "brand": "TP-link",
+                                "category": "Cameras and Accessories",
+                                "displayVariant": false,
+                                "display_name": "TP-Link Tapo C320WS 2K 4MP 1440p Outdoor Security Wi-Fi Camera Night Vision, Two-Way Audio- White",
+                                "super_saver": false,
+                                "sku_slot_info": {
+                                    "message": null,
+                                    "avail": true,
+                                    "is_avail": true,
+                                    "next_change_time": []
+                                },
+                                "sku_quantity_with_combo": "1 unit",
+                                "listing_variant": true,
+                                "max_allowed_quantity": 6,
+                                "cart_allowed_quantity": {
+                                    "total": 1,
+                                    "message": "That’s all we have in stock at the moment!"
+                                },
+                                "weight_in_grams": 494,
+                                "volumetric_weight": 0,
+                                "alcohol_content_percentage": 0,
+                                "container_type": "",
+                                "sub_category_type": "Camera",
+                                "brand_id": "6b0711be3ca4ed5db03d2418c27fe04cb159c156",
+                                "product_name_without_brand": "TP-Link Tapo C320WS 2K 4MP 1440p Outdoor Security Wi-Fi Camera Night Vision, Two-Way Audio- White",
+                                "sourcing_time": "",
+                                "sourced_from": "",
+                                "display_variant": false,
+                                "last_ordered_at": 0,
+                                "category_id": "01b621e3-7126-496b-8abc-dce0e414d24d",
+                                "sku_secondary_quantity": "",
+                                "sub_category": "Security Cameras",
+                                "super_category": "Electronics and Appliances",
+                                "store_id": "1401254",
+                                "external_pharmacy_item": false,
+                                "rx_required": false
+                            }
+                        ],
+                        "available": true,
+                        "categoryId": "01b621e3-7126-496b-8abc-dce0e414d24d",
+                        "brand": "TP-link",
+                        "badges": [],
+                        "sosAdsPositionData": null,
+                        "category": "Cameras and Accessories",
+                        "retrievalRank": 5,
+                        "analytics": {
+                            "objectValue": "p&g",
+                            "context": "{\"itemId\":\"GMV12U4ORJ\",\"slotAvailability\":true}",
+                            "impressionObjectName": "item-impression",
+                            "clickObjectName": "click-item",
+                            "extraFields": {
+                                "searchString": "p&g",
+                                "searchResultType": "LOW_CONFIDENCE"
+                            }
+                        },
+                        "avail": true,
+                        "inStockAndSlotAvailable": true,
+                        "adItem": false,
+                        "product_id": "PDCAXS0KR7",
+                        "display_name": "TP-Link Tapo C320WS 2K 4MP 1440p Outdoor Security Wi-Fi Camera Night Vision, Two-Way Audio- White",
+                        "is_avail": true,
+                        "in_stock": true,
+                        "brand_id": "6b0711be3ca4ed5db03d2418c27fe04cb159c156",
+                        "product_name_without_brand": "TP-Link Tapo C320WS 2K 4MP 1440p Outdoor Security Wi-Fi Camera Night Vision, Two-Way Audio- White",
+                        "badge_info": null,
+                        "is_ad_item": false,
+                        "search_result_type": "LOW_CONFIDENCE",
+                        "inline_message": null,
+                        "ad_tracking_context": null,
+                        "item_card_view": "V2",
+                        "super_category": "Electronics and Appliances",
+                        "sub_category": "Security Cameras"
+                    },
+                    {
+                        "variations": [
+                            {
+                                "id": "UDI8J1JHTY",
+                                "spin": "SYATXJOWYV",
+                                "price": {
+                                    "mrp": 100,
+                                    "currency": "INR",
+                                    "store_price": 100,
+                                    "offer_price": 100,
+                                    "unit_level_price": "",
+                                    "offer_applied": {
+                                        "offer_id": "",
+                                        "listing_description": "",
+                                        "product_description": "",
+                                        "super_offer": false,
+                                        "mov_threshold": 0
+                                    }
+                                },
+                                "inventory": {
+                                    "total": 1,
+                                    "remaining": 1,
+                                    "message": "",
+                                    "in_stock": true
+                                },
+                                "images": [
+                                    "NI_CATALOG/IMAGES/CIW/2025/1/7/a5186889-51ca-40ab-8076-f88c41ac4ff7_9714_1.png",
+                                    "NI_CATALOG/IMAGES/CIW/2025/1/7/366657f0-83ba-4b4c-be55-33b47896bd3f_9714_2.png",
+                                    "NI_CATALOG/IMAGES/CIW/2025/1/7/73783817-bca6-4220-a16e-19ca679f14fb_9714_3.png",
+                                    "NI_CATALOG/IMAGES/CIW/2025/1/7/67fbc5a6-76ab-4006-b1e4-b4752abfe211_9714_4.png",
+                                    "234055976c7fb61046b7a349bc06cc98",
+                                    "41298b39c874f57454756e844841a855"
+                                ],
+                                "quantity": "1 kg",
+                                "meta": {
+                                    "short_description": "          ",
+                                    "long_description": "Pack of 4",
+                                    "disclaimer": "",
+                                    "groups": [],
+                                    "coupon_less_offers": [],
+                                    "replacement_applicable": false,
+                                    "return_applicable": false,
+                                    "handpicked": false
+                                },
+                                "dimensions": {
+                                    "length_in_cm": 2000,
+                                    "width_in_cm": 1,
+                                    "height_in_cm": 1,
+                                    "volume_in_cc": 2000
+                                },
+                                "brand": "Rin",
+                                "category": "Detergents",
+                                "displayVariant": true,
+                                "display_name": "Rin Detergent Bar (250g x 4)",
+                                "super_saver": false,
+                                "sku_slot_info": {
+                                    "message": null,
+                                    "avail": true,
+                                    "is_avail": true,
+                                    "next_change_time": []
+                                },
+                                "sku_quantity_with_combo": "1 kg",
+                                "listing_variant": true,
+                                "max_allowed_quantity": 6,
+                                "cart_allowed_quantity": {
+                                    "total": 2,
+                                    "message": "That’s all we have in stock at the moment!"
+                                },
+                                "weight_in_grams": 1000,
+                                "volumetric_weight": 0,
+                                "alcohol_content_percentage": 0,
+                                "container_type": "",
+                                "sub_category_type": "Bar Detergent",
+                                "brand_id": "b13895196a26ece62946b5b70529f4f90615dedb",
+                                "product_name_without_brand": "Detergent Bar (250g x 4)",
+                                "sourcing_time": "",
+                                "sourced_from": "",
+                                "display_variant": true,
+                                "last_ordered_at": 0,
+                                "category_id": "04a88a15-4fea-431c-9b30-5a5ccf03bb68",
+                                "sku_secondary_quantity": "",
+                                "sub_category": "Detergent Bars",
+                                "super_category": "Cleaning Essentials",
+                                "store_id": "1401254",
+                                "external_pharmacy_item": false,
+                                "rx_required": false
+                            }
+                        ],
+                        "available": true,
+                        "categoryId": "04a88a15-4fea-431c-9b30-5a5ccf03bb68",
+                        "brand": "Rin",
+                        "badges": [],
+                        "sosAdsPositionData": null,
+                        "category": "Detergents",
+                        "retrievalRank": 81,
+                        "analytics": {
+                            "objectValue": "p&g",
+                            "context": "{\"itemId\":\"UDI8J1JHTY\",\"slotAvailability\":true}",
+                            "impressionObjectName": "item-impression",
+                            "clickObjectName": "click-item",
+                            "extraFields": {
+                                "searchString": "p&g",
+                                "searchResultType": "LOW_CONFIDENCE"
+                            }
+                        },
+                        "avail": true,
+                        "inStockAndSlotAvailable": true,
+                        "adItem": false,
+                        "product_id": "MDNBHKTWH0",
+                        "display_name": "Rin Detergent Bar (250g x 4)",
+                        "is_avail": true,
+                        "in_stock": true,
+                        "brand_id": "b13895196a26ece62946b5b70529f4f90615dedb",
+                        "product_name_without_brand": "Detergent Bar (250g x 4)",
+                        "badge_info": null,
+                        "is_ad_item": false,
+                        "search_result_type": "LOW_CONFIDENCE",
+                        "inline_message": null,
+                        "ad_tracking_context": null,
+                        "item_card_view": "V2",
+                        "super_category": "Cleaning Essentials",
+                        "sub_category": "Detergent Bars"
+                    },
+                    {
+                        "variations": [
+                            {
+                                "id": "O6C8DMBTS6",
+                                "spin": "Y8J71UB9NI",
+                                "price": {
+                                    "mrp": 399,
+                                    "currency": "INR",
+                                    "store_price": 399,
+                                    "offer_price": 359,
+                                    "unit_level_price": "",
+                                    "offer_applied": {
+                                        "offer_id": "debbdf8c-293a-4c67-a030-bcf4cf2b046b",
+                                        "listing_description": "10% OFF",
+                                        "product_description": "10% OFF",
+                                        "super_offer": false,
+                                        "mov_threshold": 0
+                                    }
+                                },
+                                "inventory": {
+                                    "total": 1,
+                                    "remaining": 1,
+                                    "message": "",
+                                    "in_stock": true
+                                },
+                                "images": [
+                                    "NI_CATALOG/IMAGES/CIW/2025/3/9/435af5fc-3664-4d1b-9420-e7126d551b30_13918_1.png",
+                                    "NI_CATALOG/IMAGES/CIW/2025/3/9/2d326cb4-d687-4adb-8c2e-5e025d185075_13918_2.png",
+                                    "NI_CATALOG/IMAGES/CIW/2025/3/9/3d603c75-1801-40ed-8074-563edf801611_13918_3.png",
+                                    "NI_CATALOG/IMAGES/CIW/2025/3/8/f0b64e67-d062-4c26-bad4-dd0b0c0768f6_496327_5.png",
+                                    "NI_CATALOG/IMAGES/CIW/2025/3/8/b42ae320-4a78-4318-ad36-df1ca31c8b6a_496327_4.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/17/09e15d8c-0098-4b6d-afdd-1074ad20905d_13918_6.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/17/4db21700-64aa-48dd-ae4b-ba0b10937bee_13918_7.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/17/4afbf87a-263a-4d58-8b7d-212e4e892ee6_13918_8.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/17/1c3f209a-91e0-48ad-bef0-edac2f7784de_13918_9.png"
+                                ],
+                                "quantity": "30 g",
+                                "meta": {
+                                    "short_description": "",
+                                    "long_description": "",
+                                    "disclaimer": "",
+                                    "groups": [],
+                                    "coupon_less_offers": [],
+                                    "replacement_applicable": false,
+                                    "return_applicable": false,
+                                    "handpicked": false
+                                },
+                                "dimensions": {
+                                    "length_in_cm": 60,
+                                    "width_in_cm": 1,
+                                    "height_in_cm": 1,
+                                    "volume_in_cc": 60
+                                },
+                                "brand": "Lakme",
+                                "category": "Face Makeup",
+                                "displayVariant": false,
+                                "display_name": "Lakme Honey 9 to 5 Complexion Care CC Cream (30 g, All Skin Types)",
+                                "super_saver": false,
+                                "sku_slot_info": {
+                                    "message": null,
+                                    "avail": true,
+                                    "is_avail": true,
+                                    "next_change_time": []
+                                },
+                                "sku_quantity_with_combo": "30 g",
+                                "listing_variant": true,
+                                "max_allowed_quantity": 6,
+                                "cart_allowed_quantity": {
+                                    "total": 1,
+                                    "message": "That’s all we have in stock at the moment!"
+                                },
+                                "weight_in_grams": 30,
+                                "volumetric_weight": 0,
+                                "alcohol_content_percentage": 0,
+                                "container_type": "",
+                                "sub_category_type": "CC Cream",
+                                "brand_id": "184551003ebdc62c4aebddfaafba0373dbe2f791",
+                                "product_name_without_brand": "Honey 9 to 5 Complexion Care CC Cream (30 g, All Skin Types)",
+                                "sourcing_time": "",
+                                "sourced_from": "",
+                                "display_variant": false,
+                                "last_ordered_at": 0,
+                                "category_id": "42b09606-4cef-4a40-9eaa-58bad3a6004e",
+                                "sku_secondary_quantity": "",
+                                "sub_category": "CC Cream",
+                                "super_category": "Makeup",
+                                "store_id": "1401254",
+                                "external_pharmacy_item": false,
+                                "rx_required": false
+                            }
+                        ],
+                        "available": true,
+                        "categoryId": "42b09606-4cef-4a40-9eaa-58bad3a6004e",
+                        "brand": "Lakme",
+                        "badges": [],
+                        "sosAdsPositionData": null,
+                        "category": "Face Makeup",
+                        "retrievalRank": 24,
+                        "analytics": {
+                            "objectValue": "p&g",
+                            "context": "{\"itemId\":\"O6C8DMBTS6\",\"slotAvailability\":true}",
+                            "impressionObjectName": "item-impression",
+                            "clickObjectName": "click-item",
+                            "extraFields": {
+                                "searchString": "p&g",
+                                "searchResultType": "LOW_CONFIDENCE"
+                            }
+                        },
+                        "avail": true,
+                        "inStockAndSlotAvailable": true,
+                        "adItem": false,
+                        "product_id": "3NEFGSSPZG",
+                        "display_name": "Lakme Honey 9 to 5 Complexion Care CC Cream (30 g, All Skin Types)",
+                        "is_avail": true,
+                        "in_stock": true,
+                        "brand_id": "184551003ebdc62c4aebddfaafba0373dbe2f791",
+                        "product_name_without_brand": "Honey 9 to 5 Complexion Care CC Cream (30 g, All Skin Types)",
+                        "badge_info": null,
+                        "is_ad_item": false,
+                        "search_result_type": "LOW_CONFIDENCE",
+                        "inline_message": null,
+                        "ad_tracking_context": null,
+                        "item_card_view": "V2",
+                        "super_category": "Makeup",
+                        "sub_category": "CC Cream"
+                    },
+                    {
+                        "variations": [
+                            {
+                                "id": "91MVCSR32Y",
+                                "spin": "K6DWSA5UDK",
+                                "price": {
+                                    "mrp": 489,
+                                    "currency": "INR",
+                                    "store_price": 489,
+                                    "offer_price": 459,
+                                    "unit_level_price": "",
+                                    "offer_applied": {
+                                        "offer_id": "b6bb3425-99aa-4600-b148-3ed5944411fc",
+                                        "listing_description": "6% OFF",
+                                        "product_description": "6% OFF",
+                                        "super_offer": false,
+                                        "mov_threshold": 0
+                                    }
+                                },
+                                "inventory": {
+                                    "total": 1,
+                                    "remaining": 1,
+                                    "message": "",
+                                    "in_stock": true
+                                },
+                                "images": [
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/16/64dea206-40b4-4c1e-8f46-7872722e1722_630376_1.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/16/1caab85e-c847-4725-9757-57e030703432_630376_2.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/16/73293834-71ed-44ae-b2f9-a0823520ecbc_630376_3.png"
+                                ],
+                                "quantity": "750 g",
+                                "meta": {
+                                    "short_description": "",
+                                    "long_description": "",
+                                    "disclaimer": "",
+                                    "groups": [],
+                                    "coupon_less_offers": [],
+                                    "replacement_applicable": false,
+                                    "return_applicable": false,
+                                    "handpicked": false
+                                },
+                                "dimensions": {
+                                    "length_in_cm": 30,
+                                    "width_in_cm": 6,
+                                    "height_in_cm": 16,
+                                    "volume_in_cc": 2880
+                                },
+                                "brand": "Go Cheese",
+                                "category": "Cheese",
+                                "displayVariant": false,
+                                "display_name": "Go Cheese Slice 750g",
+                                "super_saver": false,
+                                "sku_slot_info": {
+                                    "message": null,
+                                    "avail": true,
+                                    "is_avail": true,
+                                    "next_change_time": []
+                                },
+                                "sku_quantity_with_combo": "750 g",
+                                "listing_variant": true,
+                                "max_allowed_quantity": 6,
+                                "cart_allowed_quantity": {
+                                    "total": 2,
+                                    "message": "That’s all we have in stock at the moment!"
+                                },
+                                "weight_in_grams": 750,
+                                "volumetric_weight": 0,
+                                "alcohol_content_percentage": 0,
+                                "container_type": "",
+                                "sub_category_type": "Processed Cheese",
+                                "brand_id": "c7c82af2e00e74776a2d27b01c95ca73db461f29",
+                                "product_name_without_brand": "Slice 750g",
+                                "sourcing_time": "",
+                                "sourced_from": "",
+                                "display_variant": false,
+                                "last_ordered_at": 0,
+                                "category_id": "b87e01d8-a774-40b0-ab03-33b159cc41b6",
+                                "sku_secondary_quantity": "",
+                                "sub_category": "Processed Cheese",
+                                "super_category": "Dairy, Bread and Eggs",
+                                "store_id": "1401254",
+                                "external_pharmacy_item": false,
+                                "rx_required": false
+                            }
+                        ],
+                        "available": true,
+                        "categoryId": "b87e01d8-a774-40b0-ab03-33b159cc41b6",
+                        "brand": "Go Cheese",
+                        "badges": [],
+                        "sosAdsPositionData": null,
+                        "category": "Cheese",
+                        "retrievalRank": 83,
+                        "analytics": {
+                            "objectValue": "p&g",
+                            "context": "{\"itemId\":\"91MVCSR32Y\",\"slotAvailability\":true}",
+                            "impressionObjectName": "item-impression",
+                            "clickObjectName": "click-item",
+                            "extraFields": {
+                                "searchString": "p&g",
+                                "searchResultType": "LOW_CONFIDENCE"
+                            }
+                        },
+                        "avail": true,
+                        "inStockAndSlotAvailable": true,
+                        "adItem": false,
+                        "product_id": "88BHRRA4R7",
+                        "display_name": "Go Cheese Slice 750g",
+                        "is_avail": true,
+                        "in_stock": true,
+                        "brand_id": "c7c82af2e00e74776a2d27b01c95ca73db461f29",
+                        "product_name_without_brand": "Slice 750g",
+                        "badge_info": null,
+                        "is_ad_item": false,
+                        "search_result_type": "LOW_CONFIDENCE",
+                        "inline_message": null,
+                        "ad_tracking_context": null,
+                        "item_card_view": "V2",
+                        "super_category": "Dairy, Bread and Eggs",
+                        "sub_category": "Processed Cheese"
+                    },
+                    {
+                        "variations": [
+                            {
+                                "id": "PU4CP5JFKV",
+                                "spin": "J6AAXSNA1R",
+                                "price": {
+                                    "mrp": 929,
+                                    "currency": "INR",
+                                    "store_price": 929,
+                                    "offer_price": 929,
+                                    "unit_level_price": "",
+                                    "offer_applied": {
+                                        "offer_id": "",
+                                        "listing_description": "",
+                                        "product_description": "",
+                                        "super_offer": false,
+                                        "mov_threshold": 0
+                                    }
+                                },
+                                "inventory": {
+                                    "total": 1,
+                                    "remaining": 1,
+                                    "message": "",
+                                    "in_stock": true
+                                },
+                                "images": [
+                                    "NI_CATALOG/IMAGES/CIW/2025/1/23/b047e115-d927-4f11-b930-2c4700570ff4_A4TWAYN0GN_MN.png",
+                                    "NI_CATALOG/IMAGES/CIW/2025/1/23/8670c509-c6c9-4077-ac87-53ca194d4560_A4TWAYN0GN_AL1.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/6/dd85a96a-bfe1-44a5-9ff9-926dec27b7cf_675597_3.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/6/6eb417d0-f110-4754-b4df-6aafdb6c785e_675597_4.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/12/6/8a306298-a01d-4998-9f2b-cdd94f447eaa_675597_5.png",
+                                    "NI_CATALOG/IMAGES/CIW/2025/1/7/7ea70081-aa4a-4ebb-9d92-acba32d1915f_914540_6.png",
+                                    "NI_CATALOG/IMAGES/CIW/2025/1/7/0b70c6de-c783-4025-a910-19f8bc55aced_914540_7.png",
+                                    "NI_CATALOG/IMAGES/CIW/2025/1/7/1421e9b4-cc74-495a-be4e-e1fa997ceac3_914540_8.png"
+                                ],
+                                "quantity": "1 XL",
+                                "meta": {
+                                    "short_description": "",
+                                    "long_description": "",
+                                    "disclaimer": "",
+                                    "groups": [],
+                                    "coupon_less_offers": [],
+                                    "replacement_applicable": false,
+                                    "return_applicable": false,
+                                    "handpicked": false
+                                },
+                                "dimensions": {
+                                    "length_in_cm": 30,
+                                    "width_in_cm": 26,
+                                    "height_in_cm": 5,
+                                    "volume_in_cc": 3900
+                                },
+                                "brand": "Enamor",
+                                "category": "Women's Lingerie",
+                                "displayVariant": false,
+                                "display_name": "SB08-BRA-PNW-P1, BLACK",
+                                "super_saver": false,
+                                "sku_slot_info": {
+                                    "message": null,
+                                    "avail": true,
+                                    "is_avail": true,
+                                    "next_change_time": []
+                                },
+                                "sku_quantity_with_combo": "1 XL",
+                                "listing_variant": true,
+                                "max_allowed_quantity": 6,
+                                "cart_allowed_quantity": {
+                                    "total": 1,
+                                    "message": "That’s all we have in stock at the moment!"
+                                },
+                                "weight_in_grams": 250,
+                                "volumetric_weight": 0,
+                                "alcohol_content_percentage": 0,
+                                "container_type": "",
+                                "sub_category_type": "",
+                                "brand_id": "9c6542707d11752a3e82103df1244cedf9c124c0",
+                                "product_name_without_brand": "SB08-BRA-PNW-P1, BLACK",
+                                "sourcing_time": "",
+                                "sourced_from": "",
+                                "display_variant": false,
+                                "last_ordered_at": 0,
+                                "category_id": "0fd94852-13c4-4b68-9cc7-84f7dc81d354",
+                                "sku_secondary_quantity": "",
+                                "sub_category": "Bras",
+                                "super_category": "Clothing",
+                                "store_id": "1401254",
+                                "external_pharmacy_item": false,
+                                "rx_required": false
+                            }
+                        ],
+                        "available": true,
+                        "categoryId": "0fd94852-13c4-4b68-9cc7-84f7dc81d354",
+                        "brand": "Enamor",
+                        "badges": [],
+                        "sosAdsPositionData": null,
+                        "category": "Women's Lingerie",
+                        "retrievalRank": 16,
+                        "analytics": {
+                            "objectValue": "p&g",
+                            "context": "{\"itemId\":\"PU4CP5JFKV\",\"slotAvailability\":true}",
+                            "impressionObjectName": "item-impression",
+                            "clickObjectName": "click-item",
+                            "extraFields": {
+                                "searchString": "p&g",
+                                "searchResultType": "LOW_CONFIDENCE"
+                            }
+                        },
+                        "avail": true,
+                        "inStockAndSlotAvailable": true,
+                        "adItem": false,
+                        "product_id": "5EG85QCE6G",
+                        "display_name": "SB08-BRA-PNW-P1, BLACK",
+                        "is_avail": true,
+                        "in_stock": true,
+                        "brand_id": "9c6542707d11752a3e82103df1244cedf9c124c0",
+                        "product_name_without_brand": "SB08-BRA-PNW-P1, BLACK",
+                        "badge_info": null,
+                        "is_ad_item": false,
+                        "search_result_type": "LOW_CONFIDENCE",
+                        "inline_message": null,
+                        "ad_tracking_context": null,
+                        "item_card_view": "V2",
+                        "super_category": "Clothing",
+                        "sub_category": "Bras"
+                    },
+                    {
+                        "variations": [
+                            {
+                                "id": "1PONMJO8YP",
+                                "spin": "WGYWBVIRLG",
+                                "price": {
+                                    "mrp": 749,
+                                    "currency": "INR",
+                                    "store_price": 749,
+                                    "offer_price": 712,
+                                    "unit_level_price": "",
+                                    "offer_applied": {
+                                        "offer_id": "e8d9ba28-4c20-40d3-ae94-4be196757d86",
+                                        "listing_description": "4% OFF",
+                                        "product_description": "4% OFF",
+                                        "super_offer": false,
+                                        "mov_threshold": 0
+                                    }
+                                },
+                                "inventory": {
+                                    "total": 1,
+                                    "remaining": 1,
+                                    "message": "",
+                                    "in_stock": true
+                                },
+                                "images": [
+                                    "NI_CATALOG/IMAGES/CIW/2024/9/22/7a99c6c4-806a-43a2-a9fe-0999b0b6dc84_WGYWBVIRLG_mn.png",
+                                    "NI_CATALOG/IMAGES/CIW/2024/8/3/cc8d727f-32dc-4984-a50b-cb8340616b20_WGYWBVIRLG_AL1.jpg",
+                                    "e1bc3a7d29e2cf71a4bd61de28e331d0"
+                                ],
+                                "quantity": "100 g",
+                                "meta": {
+                                    "short_description": "Made with 100% Arabica Beans",
+                                    "long_description": "",
+                                    "disclaimer": "",
+                                    "groups": [],
+                                    "coupon_less_offers": [],
+                                    "replacement_applicable": false,
+                                    "return_applicable": false,
+                                    "handpicked": true
+                                },
+                                "dimensions": {
+                                    "length_in_cm": 6,
+                                    "width_in_cm": 5,
+                                    "height_in_cm": 18,
+                                    "volume_in_cc": 540
+                                },
+                                "brand": "Davidoff",
+                                "category": "Coffee",
+                                "displayVariant": true,
+                                "display_name": "Davidoff Espresso 57 Intense Instant Coffee 11/12 Intensity - 100% Arabica, 3.53 oz 邃ｮ 100g, Granule",
+                                "super_saver": false,
+                                "sku_slot_info": {
+                                    "message": null,
+                                    "avail": true,
+                                    "is_avail": true,
+                                    "next_change_time": []
+                                },
+                                "sku_quantity_with_combo": "100 g",
+                                "listing_variant": true,
+                                "max_allowed_quantity": 50,
+                                "cart_allowed_quantity": {
+                                    "total": 2,
+                                    "message": "That’s all we have in stock at the moment!"
+                                },
+                                "weight_in_grams": 100,
+                                "volumetric_weight": 0,
+                                "alcohol_content_percentage": 0,
+                                "container_type": "",
+                                "sub_category_type": "Instant Coffee",
+                                "brand_id": "70b1724c32db8e89cb569652e18618cb8b8849db",
+                                "product_name_without_brand": "Espresso 57 Intense Instant Coffee 11/12 Intensity - 100% Arabica, 3.53 oz 邃ｮ 100g, Granule",
+                                "sourcing_time": "",
+                                "sourced_from": "",
+                                "display_variant": true,
+                                "last_ordered_at": 0,
+                                "category_id": "ff66cdbb-8983-4a9c-92bb-fa404c560b28",
+                                "sku_secondary_quantity": "",
+                                "sub_category": "Instant Coffee",
+                                "super_category": "Tea, Coffee and More",
+                                "store_id": "1401254",
+                                "external_pharmacy_item": false,
+                                "rx_required": false
+                            }
+                        ],
+                        "available": true,
+                        "categoryId": "ff66cdbb-8983-4a9c-92bb-fa404c560b28",
+                        "brand": "Davidoff",
+                        "badges": [
+                            {
+                                "badge_type": "HANDPICKED",
+                                "badge_text": "Handpicked",
+                                "badge_color": "#9E1E62",
+                                "text_color": "#FFFFFF",
+                                "icon": {
+                                    "creative_id": "native-instamart-assets/hp/Handpicked_16x16_White_Filled@5x.png",
+                                    "width": 0,
+                                    "height": 0
+                                }
+                            }
+                        ],
+                        "sosAdsPositionData": null,
+                        "category": "Coffee",
+                        "retrievalRank": 31,
+                        "analytics": {
+                            "objectValue": "p&g",
+                            "context": "{\"itemId\":\"1PONMJO8YP\",\"slotAvailability\":true}",
+                            "impressionObjectName": "item-impression",
+                            "clickObjectName": "click-item",
+                            "extraFields": {
+                                "searchString": "p&g",
+                                "searchResultType": "LOW_CONFIDENCE"
+                            }
+                        },
+                        "avail": true,
+                        "inStockAndSlotAvailable": true,
+                        "adItem": false,
+                        "product_id": "M6JFVB2CH6",
+                        "display_name": "Davidoff Espresso 57 Intense Instant Coffee 11/12 Intensity - 100% Arabica, 3.53 oz 邃ｮ 100g, Granule",
+                        "is_avail": true,
+                        "in_stock": true,
+                        "brand_id": "70b1724c32db8e89cb569652e18618cb8b8849db",
+                        "product_name_without_brand": "Espresso 57 Intense Instant Coffee 11/12 Intensity - 100% Arabica, 3.53 oz 邃ｮ 100g, Granule",
+                        "badge_info": {
+                            "badge_type": "HANDPICKED",
+                            "badge_text": "Handpicked",
+                            "badge_color": "#9E1E62",
+                            "text_color": "#FFFFFF",
+                            "icon": {
+                                "creative_id": "native-instamart-assets/hp/Handpicked_16x16_White_Filled@5x.png",
+                                "width": 0,
+                                "height": 0
+                            }
+                        },
+                        "is_ad_item": false,
+                        "search_result_type": "LOW_CONFIDENCE",
+                        "inline_message": null,
+                        "ad_tracking_context": null,
+                        "item_card_view": "V2",
+                        "super_category": "Tea, Coffee and More",
+                        "sub_category": "Instant Coffee"
+                    }
+                ],
+                "type": "PRODUCT_LIST",
+                "priority": 1,
+                "widgetTimeSlotInfo": {
+                    "alwaysActive": true,
+                    "widgetSlotDayListMap": null
+                },
+                "segments": []
+            }
+        ],
+        "pageNumber": 0,
+        "hasMorePages": true,
+        "totalResultSize": 101,
+        "searchSource": "SEARCH_WRAPPER",
+        "totalResults": "101",
+        "storeId": "1401254",
+        "brandQuery": true,
+        "searchResultsOffset": 20,
+        "title": "Showing results for <b>\"p&g\"</b>",
+        "searchSourceMeta": {
+            "queryId": null,
+            "searchSource": "SEARCH_WRAPPER"
+        },
+        "requestId": "de6f6322-a31a-4ebf-a1f1-10521b5f611b",
+        "storeDetails": {
+            "id": "1401254",
+            "name": "Instamart",
+            "address": "Ground Floor, Nambardar Market, Near Sahara Grace Apartments, Village- Chakarpur, Gurgaon-Haryana- 122002",
+            "description": "",
+            "active": true,
+            "priority": 2,
+            "locality": "Sector 19",
+            "categories": [
+                {
+                    "id": 52,
+                    "name": "Instamart"
+                }
+            ],
+            "tags": [],
+            "sources": [
+                {
+                    "source": {
+                        "id": 6,
+                        "name": "Offline Sourced"
+                    },
+                    "id_in_source": ""
+                }
+            ],
+            "badges": [],
+            "maxAllowedItemsInCart": 200,
+            "maxAllowedCartWeightInGrams": 38000,
+            "maxAllowedCartVolumeInCc": 80000,
+            "minimumOrderValueInRs": 0,
+            "subCategoryTypeMaxAllowedWeights": {},
+            "discountInfo": {
+                "couponLessDiscounts": [
+                    {
+                        "description": "",
+                        "short_description": "",
+                        "discount_type": "PERCENT",
+                        "logo_id": "InstamartAssets/Swiggy%20New%20(400%20x%20400)%20Logo.png",
+                        "title": "Free Delivery above ₹499",
+                        "sub_title": "Get free delivery on orders above ₹499",
+                        "tnc": [
+                            "Other T&Cs may apply"
+                        ],
+                        "coupon_code": "",
+                        "super_offer": false,
+                        "discount_cap": 199,
+                        "valid_till": "2025-12-30T18:29:00.000+0000",
+                        "offer_id": "0a708534-df30-43ea-bdb3-412d6d48747c",
+                        "minimum_order_value": 499,
+                        "discount_value": 100,
+                        "nudge": {
+                            "message": "",
+                            "logoId": "",
+                            "threshold": 0,
+                            "frequency": 35,
+                            "timeout": 10000,
+                            "cta": {
+                                "text": "",
+                                "link": ""
+                            }
+                        },
+                        "success_dialog": {
+                            "title": "",
+                            "message": "",
+                            "header": ""
+                        },
+                        "prev_mov_text": "",
+                        "post_mov_text": "",
+                        "groups_info": {
+                            "exclusionGroupsInfo": {},
+                            "message": ""
+                        },
+                        "pre_display_threshold_text": "",
+                        "discount_on_type": "CART"
+                    },
+                    {
+                        "description": "",
+                        "short_description": "",
+                        "discount_type": "PERCENT",
+                        "logo_id": "InstamartAssets/Swiggy%20New%20(400%20x%20400)%20Logo.png",
+                        "title": "Free Delivery above ₹499",
+                        "sub_title": "Get free delivery on orders above ₹499",
+                        "tnc": [
+                            "Other T&Cs may apply"
+                        ],
+                        "coupon_code": "",
+                        "super_offer": false,
+                        "discount_cap": 199,
+                        "valid_till": "2025-12-30T18:29:00.000+0000",
+                        "offer_id": "22666cbc-526f-4439-9570-9d7074ac82cb",
+                        "minimum_order_value": 499,
+                        "discount_value": 100,
+                        "nudge": {
+                            "message": "",
+                            "logoId": "",
+                            "threshold": 0,
+                            "frequency": 35,
+                            "timeout": 10000,
+                            "cta": {
+                                "text": "",
+                                "link": ""
+                            }
+                        },
+                        "success_dialog": {
+                            "title": "",
+                            "message": "",
+                            "header": ""
+                        },
+                        "prev_mov_text": "",
+                        "post_mov_text": "",
+                        "groups_info": {
+                            "exclusionGroupsInfo": {},
+                            "message": ""
+                        },
+                        "pre_display_threshold_text": "",
+                        "discount_on_type": "CART"
+                    },
+                    {
+                        "description": "",
+                        "short_description": "",
+                        "discount_type": "PERCENT",
+                        "logo_id": "InstamartAssets/Swiggy%20New%20(400%20x%20400)%20Logo.png",
+                        "title": "Free Delivery above ₹499",
+                        "sub_title": "Get free delivery on orders above ₹499",
+                        "tnc": [
+                            "Other T&Cs may apply"
+                        ],
+                        "coupon_code": "",
+                        "super_offer": false,
+                        "discount_cap": 199,
+                        "valid_till": "2025-12-30T18:29:00.000+0000",
+                        "offer_id": "57e4b40a-646c-4570-bfdb-f14da0b9048b",
+                        "minimum_order_value": 499,
+                        "discount_value": 100,
+                        "nudge": {
+                            "message": "",
+                            "logoId": "",
+                            "threshold": 0,
+                            "frequency": 35,
+                            "timeout": 10000,
+                            "cta": {
+                                "text": "",
+                                "link": ""
+                            }
+                        },
+                        "success_dialog": {
+                            "title": "",
+                            "message": "",
+                            "header": ""
+                        },
+                        "prev_mov_text": "",
+                        "post_mov_text": "",
+                        "groups_info": {
+                            "exclusionGroupsInfo": {},
+                            "message": ""
+                        },
+                        "pre_display_threshold_text": "",
+                        "discount_on_type": "CART"
+                    },
+                    {
+                        "description": "",
+                        "short_description": "",
+                        "discount_type": "PERCENT",
+                        "logo_id": "InstamartAssets/Swiggy%20New%20(400%20x%20400)%20Logo.png",
+                        "title": "Free Delivery above ₹499",
+                        "sub_title": "Get free delivery on orders above ₹499",
+                        "tnc": [
+                            "Other T&Cs may apply"
+                        ],
+                        "coupon_code": "",
+                        "super_offer": false,
+                        "discount_cap": 199,
+                        "valid_till": "2025-12-30T18:29:00.000+0000",
+                        "offer_id": "c6408d05-a730-4bca-bbff-f688bf7193af",
+                        "minimum_order_value": 499,
+                        "discount_value": 100,
+                        "nudge": {
+                            "message": "",
+                            "logoId": "",
+                            "threshold": 0,
+                            "frequency": 35,
+                            "timeout": 10000,
+                            "cta": {
+                                "text": "",
+                                "link": ""
+                            }
+                        },
+                        "success_dialog": {
+                            "title": "",
+                            "message": "",
+                            "header": ""
+                        },
+                        "prev_mov_text": "",
+                        "post_mov_text": "",
+                        "groups_info": {
+                            "exclusionGroupsInfo": {},
+                            "message": ""
+                        },
+                        "pre_display_threshold_text": "",
+                        "discount_on_type": "CART"
+                    },
+                    {
+                        "description": "",
+                        "short_description": "",
+                        "discount_type": "PERCENT",
+                        "logo_id": "InstamartAssets/Swiggy%20New%20(400%20x%20400)%20Logo.png",
+                        "title": "Flat 5% off on Purchase of items from category Dry fruits and Nuts worth Rs.1000 & above",
+                        "sub_title": "Flat 5% off on Purchase of items from category Dry fruits and Nuts worth Rs.1000 & above",
+                        "tnc": [
+                            "Valid only on Dry fruits and Nuts",
+                            "The cart can have other items too but the discount will be valid only on Dry fruits and Nuts",
+                            "Limited period offer",
+                            "Offer valid once per user",
+                            "Valid only on Instamart",
+                            "Other T&Cs may apply"
+                        ],
+                        "coupon_code": "",
+                        "super_offer": false,
+                        "discount_cap": 500,
+                        "valid_till": "2025-03-19T18:29:00.000+0000",
+                        "offer_id": "38491047-65c1-4390-86c9-ff2ccc15e4ad",
+                        "minimum_order_value": 1000,
+                        "discount_value": 5,
+                        "nudge": {
+                            "message": "",
+                            "logoId": "",
+                            "threshold": 50,
+                            "frequency": 35,
+                            "timeout": 10000,
+                            "cta": {
+                                "text": "View Items",
+                                "link": "/instamart/collection-listing?collectionId=93461&disable_view_offer=true&offerId=38491047-65c1-4390-86c9-ff2ccc15e4ad"
+                            }
+                        },
+                        "success_dialog": {
+                            "title": "",
+                            "message": "",
+                            "header": ""
+                        },
+                        "prev_mov_text": "",
+                        "post_mov_text": "",
+                        "groups_info": {
+                            "exclusionGroupsInfo": {},
+                            "message": ""
+                        },
+                        "pre_display_threshold_text": "",
+                        "inclusive_offer_tag": {
+                            "text": "View Offer",
+                            "avail_msg": "Add Dates and Nuts items worth ₹1000 more to avail this offer",
+                            "pre_mov_text": "Offer will be auto-applied on the bill",
+                            "post_mov_text": "Offer auto-applied on the bill"
+                        },
+                        "discount_on_type": "CART"
+                    }
+                ],
+                "superOffer": false,
+                "discounts": [
+                    {
+                        "description": "Use PHARMA20 | On orders above ₹399",
+                        "short_description": "20% off upto ₹200",
+                        "discount_type": "PERCENT",
+                        "logo_id": "InstamartAssets/Swiggy%20New%20(400%20x%20400)%20Logo.png",
+                        "title": "20% off upto ₹200",
+                        "sub_title": "Use code PHARMA20 & get 20% off upto ₹200 on orders above ₹399",
+                        "tnc": [
+                            "Limited period offer",
+                            "Valid only on Instamart orders 1 time per user",
+                            "Valid only on Pharma items",
+                            "Other T&Cs may apply."
+                        ],
+                        "coupon_code": "PHARMA20",
+                        "super_offer": false,
+                        "minimum_order_value": 39900,
+                        "prev_mov_text": "",
+                        "post_mov_text": "",
+                        "groups_info": {
+                            "exclusionGroupsInfo": {},
+                            "message": ""
+                        },
+                        "pre_display_threshold_text": "",
+                        "discount_on_type": "CART"
+                    },
+                    {
+                        "description": "Use PALMONAS10 | On orders above ₹1100",
+                        "short_description": "Get 10% off",
+                        "discount_type": "PERCENT",
+                        "logo_id": "InstamartAssets/Swiggy%20New%20(400%20x%20400)%20Logo.png",
+                        "title": "Get 10% off",
+                        "sub_title": "Use code PALMONAS10 & get 10% off up to ₹1000 on orders above ₹1100",
+                        "tnc": [
+                            "Limited period offer",
+                            "Offer valid only on selected Palmonas items",
+                            "Valid only on Instamart orders once per user",
+                            "Other T&Cs may apply. "
+                        ],
+                        "coupon_code": "PALMONAS10",
+                        "super_offer": false,
+                        "minimum_order_value": 110000,
+                        "prev_mov_text": "",
+                        "post_mov_text": "",
+                        "groups_info": {
+                            "exclusionGroupsInfo": {},
+                            "message": ""
+                        },
+                        "pre_display_threshold_text": "",
+                        "discount_on_type": "CART"
+                    },
+                    {
+                        "description": "",
+                        "short_description": "",
+                        "discount_type": "FLAT",
+                        "logo_id": "InstamartAssets/Gillette%20Logo_Blue.png?updatedAt=1742299698414",
+                        "title": "Flat Rs. 50 OFF on purchase of select range of Gillette products worth Rs. 350 & above",
+                        "sub_title": "Flat Rs. 50 OFF on purchase of select range of Gillette products worth Rs. 350 & above",
+                        "tnc": [
+                            "Valid only on Gillette Items worth ₹299 or more",
+                            "The cart can have other items too but the discount will be valid only on Gillette Items",
+                            "Limited period offer",
+                            "Offer valid once per user",
+                            "Valid only on Instamart",
+                            "Other T&Cs may apply"
+                        ],
+                        "coupon_code": "SHAVENEW",
+                        "super_offer": false,
+                        "minimum_order_value": 35000,
+                        "prev_mov_text": "",
+                        "post_mov_text": "",
+                        "groups_info": {
+                            "exclusionGroupsInfo": {},
+                            "message": ""
+                        },
+                        "pre_display_threshold_text": "",
+                        "discount_on_type": "CART"
+                    },
+                    {
+                        "description": "",
+                        "short_description": "",
+                        "discount_type": "PERCENT",
+                        "logo_id": "InstamartAssets/Swiggy%20New%20(400%20x%20400)%20Logo.png",
+                        "title": "Purchases above Rs 2000 and get Flat 10% off on Electronics and Appliances ",
+                        "sub_title": "Purchases above Rs 2000 and get Flat 10% off on Electronics and Appliances ",
+                        "tnc": [
+                            "Valid only on Electronics and Appliances",
+                            "The cart can have other items too but the discount will be valid only on Electronics and Appliances",
+                            "Limited period offer",
+                            "Offer valid once per user",
+                            "Valid only on Instamart",
+                            "Other T&Cs may apply"
+                        ],
+                        "coupon_code": "ELEC10",
+                        "super_offer": false,
+                        "minimum_order_value": 200000,
+                        "prev_mov_text": "",
+                        "post_mov_text": "",
+                        "groups_info": {
+                            "exclusionGroupsInfo": {},
+                            "message": ""
+                        },
+                        "pre_display_threshold_text": "",
+                        "discount_on_type": "CART"
+                    }
+                ]
+            },
+            "metadata": {
+                "unstructured_enabled": false,
+                "user_verification_required": false,
+                "guaranteed_delivery": false
+            },
+            "lastOrderTimestamp": 0,
+            "inStockItems": 0,
+            "deliverySlots": [],
+            "invoiceDetails": {
+                "invoice_entity_name": ""
+            },
+            "bulkCartConstraints": {
+                "minWeightInGrams": 15000,
+                "minItemCount": 200
+            },
+            "hasPharmacy": false,
+            "pharmacyEnabled": false,
+            "slottedDeliveryAvailable": false,
+            "unstructuredEnabled": false,
+            "partner": true,
+            "sellerName": "",
+            "sellerFssaiAuthorisedAddress": "Gf, Village Chakkarpur, M.G. Road, Behind Sahara Mall, Gurgaon, Haryana, 122002",
+            "sellerFssaiNumber": "20250117106890492",
+            "lat_long": "28.476500,77.084889",
+            "phone_numbers": "8826993287",
+            "is_verified": true,
+            "is_partner": true,
+            "image_id": "",
+            "product_categories": [],
+            "store_chain": {
+                "id": 229,
+                "name": "Instamart"
+            },
+            "store_document": {
+                "fssai_license_no": "",
+                "drug_license_no": "",
+                "gstin_number": "06AAMCP3576B1ZE",
+                "liquor_license_no": "",
+                "fssai_reference_no": "20250117106890492",
+                "fssai_registered_business_entity_name": "P Y D RETAIL PRIVATE LIMITED",
+                "fssai_authorised_premises_address": "Gf, Village Chakkarpur, M.G. Road, Behind Sahara Mall, Gurgaon, Haryana, 122002"
+            },
+            "popular_category": {
+                "id": 0,
+                "name": ""
+            }
+        },
+        "storesDetails": [
+            {
+                "id": "1401254",
+                "name": "Instamart",
+                "storeConstraints": {
+                    "maxAllowedItemsInCart": 200,
+                    "maxAllowedCartWeightInGrams": 38000,
+                    "maxAllowedCartVolumeInCc": 80000,
+                    "bulkCartConstraints": {
+                        "minWeightInGrams": 15000,
+                        "minItemCount": 200
+                    }
+                },
+                "discountInfo": {
+                    "couponLessDiscounts": [
+                        {
+                            "description": "",
+                            "short_description": "",
+                            "discount_type": "PERCENT",
+                            "logo_id": "InstamartAssets/Swiggy%20New%20(400%20x%20400)%20Logo.png",
+                            "title": "Free Delivery above ₹499",
+                            "sub_title": "Get free delivery on orders above ₹499",
+                            "tnc": [
+                                "Other T&Cs may apply"
+                            ],
+                            "coupon_code": "",
+                            "super_offer": false,
+                            "discount_cap": 199,
+                            "valid_till": "2025-12-30T18:29:00.000+0000",
+                            "offer_id": "0a708534-df30-43ea-bdb3-412d6d48747c",
+                            "minimum_order_value": 499,
+                            "discount_value": 100,
+                            "nudge": {
+                                "message": "",
+                                "logoId": "",
+                                "threshold": 0,
+                                "frequency": 35,
+                                "timeout": 10000,
+                                "cta": {
+                                    "text": "",
+                                    "link": ""
+                                }
+                            },
+                            "success_dialog": {
+                                "title": "",
+                                "message": "",
+                                "header": ""
+                            },
+                            "prev_mov_text": "",
+                            "post_mov_text": "",
+                            "groups_info": {
+                                "exclusionGroupsInfo": {},
+                                "message": ""
+                            },
+                            "pre_display_threshold_text": "",
+                            "discount_on_type": "CART"
+                        },
+                        {
+                            "description": "",
+                            "short_description": "",
+                            "discount_type": "PERCENT",
+                            "logo_id": "InstamartAssets/Swiggy%20New%20(400%20x%20400)%20Logo.png",
+                            "title": "Free Delivery above ₹499",
+                            "sub_title": "Get free delivery on orders above ₹499",
+                            "tnc": [
+                                "Other T&Cs may apply"
+                            ],
+                            "coupon_code": "",
+                            "super_offer": false,
+                            "discount_cap": 199,
+                            "valid_till": "2025-12-30T18:29:00.000+0000",
+                            "offer_id": "22666cbc-526f-4439-9570-9d7074ac82cb",
+                            "minimum_order_value": 499,
+                            "discount_value": 100,
+                            "nudge": {
+                                "message": "",
+                                "logoId": "",
+                                "threshold": 0,
+                                "frequency": 35,
+                                "timeout": 10000,
+                                "cta": {
+                                    "text": "",
+                                    "link": ""
+                                }
+                            },
+                            "success_dialog": {
+                                "title": "",
+                                "message": "",
+                                "header": ""
+                            },
+                            "prev_mov_text": "",
+                            "post_mov_text": "",
+                            "groups_info": {
+                                "exclusionGroupsInfo": {},
+                                "message": ""
+                            },
+                            "pre_display_threshold_text": "",
+                            "discount_on_type": "CART"
+                        },
+                        {
+                            "description": "",
+                            "short_description": "",
+                            "discount_type": "PERCENT",
+                            "logo_id": "InstamartAssets/Swiggy%20New%20(400%20x%20400)%20Logo.png",
+                            "title": "Free Delivery above ₹499",
+                            "sub_title": "Get free delivery on orders above ₹499",
+                            "tnc": [
+                                "Other T&Cs may apply"
+                            ],
+                            "coupon_code": "",
+                            "super_offer": false,
+                            "discount_cap": 199,
+                            "valid_till": "2025-12-30T18:29:00.000+0000",
+                            "offer_id": "57e4b40a-646c-4570-bfdb-f14da0b9048b",
+                            "minimum_order_value": 499,
+                            "discount_value": 100,
+                            "nudge": {
+                                "message": "",
+                                "logoId": "",
+                                "threshold": 0,
+                                "frequency": 35,
+                                "timeout": 10000,
+                                "cta": {
+                                    "text": "",
+                                    "link": ""
+                                }
+                            },
+                            "success_dialog": {
+                                "title": "",
+                                "message": "",
+                                "header": ""
+                            },
+                            "prev_mov_text": "",
+                            "post_mov_text": "",
+                            "groups_info": {
+                                "exclusionGroupsInfo": {},
+                                "message": ""
+                            },
+                            "pre_display_threshold_text": "",
+                            "discount_on_type": "CART"
+                        },
+                        {
+                            "description": "",
+                            "short_description": "",
+                            "discount_type": "PERCENT",
+                            "logo_id": "InstamartAssets/Swiggy%20New%20(400%20x%20400)%20Logo.png",
+                            "title": "Free Delivery above ₹499",
+                            "sub_title": "Get free delivery on orders above ₹499",
+                            "tnc": [
+                                "Other T&Cs may apply"
+                            ],
+                            "coupon_code": "",
+                            "super_offer": false,
+                            "discount_cap": 199,
+                            "valid_till": "2025-12-30T18:29:00.000+0000",
+                            "offer_id": "c6408d05-a730-4bca-bbff-f688bf7193af",
+                            "minimum_order_value": 499,
+                            "discount_value": 100,
+                            "nudge": {
+                                "message": "",
+                                "logoId": "",
+                                "threshold": 0,
+                                "frequency": 35,
+                                "timeout": 10000,
+                                "cta": {
+                                    "text": "",
+                                    "link": ""
+                                }
+                            },
+                            "success_dialog": {
+                                "title": "",
+                                "message": "",
+                                "header": ""
+                            },
+                            "prev_mov_text": "",
+                            "post_mov_text": "",
+                            "groups_info": {
+                                "exclusionGroupsInfo": {},
+                                "message": ""
+                            },
+                            "pre_display_threshold_text": "",
+                            "discount_on_type": "CART"
+                        },
+                        {
+                            "description": "",
+                            "short_description": "",
+                            "discount_type": "PERCENT",
+                            "logo_id": "InstamartAssets/Swiggy%20New%20(400%20x%20400)%20Logo.png",
+                            "title": "Flat 5% off on Purchase of items from category Dry fruits and Nuts worth Rs.1000 & above",
+                            "sub_title": "Flat 5% off on Purchase of items from category Dry fruits and Nuts worth Rs.1000 & above",
+                            "tnc": [
+                                "Valid only on Dry fruits and Nuts",
+                                "The cart can have other items too but the discount will be valid only on Dry fruits and Nuts",
+                                "Limited period offer",
+                                "Offer valid once per user",
+                                "Valid only on Instamart",
+                                "Other T&Cs may apply"
+                            ],
+                            "coupon_code": "",
+                            "super_offer": false,
+                            "discount_cap": 500,
+                            "valid_till": "2025-03-19T18:29:00.000+0000",
+                            "offer_id": "38491047-65c1-4390-86c9-ff2ccc15e4ad",
+                            "minimum_order_value": 1000,
+                            "discount_value": 5,
+                            "nudge": {
+                                "message": "",
+                                "logoId": "",
+                                "threshold": 50,
+                                "frequency": 35,
+                                "timeout": 10000,
+                                "cta": {
+                                    "text": "View Items",
+                                    "link": "/instamart/collection-listing?collectionId=93461&disable_view_offer=true&offerId=38491047-65c1-4390-86c9-ff2ccc15e4ad"
+                                }
+                            },
+                            "success_dialog": {
+                                "title": "",
+                                "message": "",
+                                "header": ""
+                            },
+                            "prev_mov_text": "",
+                            "post_mov_text": "",
+                            "groups_info": {
+                                "exclusionGroupsInfo": {},
+                                "message": ""
+                            },
+                            "pre_display_threshold_text": "",
+                            "inclusive_offer_tag": {
+                                "text": "View Offer",
+                                "avail_msg": "Add Dates and Nuts items worth ₹1000 more to avail this offer",
+                                "pre_mov_text": "Offer will be auto-applied on the bill",
+                                "post_mov_text": "Offer auto-applied on the bill"
+                            },
+                            "discount_on_type": "CART"
+                        }
+                    ],
+                    "superOffer": false,
+                    "discounts": [
+                        {
+                            "description": "Use PHARMA20 | On orders above ₹399",
+                            "short_description": "20% off upto ₹200",
+                            "discount_type": "PERCENT",
+                            "logo_id": "InstamartAssets/Swiggy%20New%20(400%20x%20400)%20Logo.png",
+                            "title": "20% off upto ₹200",
+                            "sub_title": "Use code PHARMA20 & get 20% off upto ₹200 on orders above ₹399",
+                            "tnc": [
+                                "Limited period offer",
+                                "Valid only on Instamart orders 1 time per user",
+                                "Valid only on Pharma items",
+                                "Other T&Cs may apply."
+                            ],
+                            "coupon_code": "PHARMA20",
+                            "super_offer": false,
+                            "minimum_order_value": 39900,
+                            "prev_mov_text": "",
+                            "post_mov_text": "",
+                            "groups_info": {
+                                "exclusionGroupsInfo": {},
+                                "message": ""
+                            },
+                            "pre_display_threshold_text": "",
+                            "discount_on_type": "CART"
+                        },
+                        {
+                            "description": "Use PALMONAS10 | On orders above ₹1100",
+                            "short_description": "Get 10% off",
+                            "discount_type": "PERCENT",
+                            "logo_id": "InstamartAssets/Swiggy%20New%20(400%20x%20400)%20Logo.png",
+                            "title": "Get 10% off",
+                            "sub_title": "Use code PALMONAS10 & get 10% off up to ₹1000 on orders above ₹1100",
+                            "tnc": [
+                                "Limited period offer",
+                                "Offer valid only on selected Palmonas items",
+                                "Valid only on Instamart orders once per user",
+                                "Other T&Cs may apply. "
+                            ],
+                            "coupon_code": "PALMONAS10",
+                            "super_offer": false,
+                            "minimum_order_value": 110000,
+                            "prev_mov_text": "",
+                            "post_mov_text": "",
+                            "groups_info": {
+                                "exclusionGroupsInfo": {},
+                                "message": ""
+                            },
+                            "pre_display_threshold_text": "",
+                            "discount_on_type": "CART"
+                        },
+                        {
+                            "description": "",
+                            "short_description": "",
+                            "discount_type": "FLAT",
+                            "logo_id": "InstamartAssets/Gillette%20Logo_Blue.png?updatedAt=1742299698414",
+                            "title": "Flat Rs. 50 OFF on purchase of select range of Gillette products worth Rs. 350 & above",
+                            "sub_title": "Flat Rs. 50 OFF on purchase of select range of Gillette products worth Rs. 350 & above",
+                            "tnc": [
+                                "Valid only on Gillette Items worth ₹299 or more",
+                                "The cart can have other items too but the discount will be valid only on Gillette Items",
+                                "Limited period offer",
+                                "Offer valid once per user",
+                                "Valid only on Instamart",
+                                "Other T&Cs may apply"
+                            ],
+                            "coupon_code": "SHAVENEW",
+                            "super_offer": false,
+                            "minimum_order_value": 35000,
+                            "prev_mov_text": "",
+                            "post_mov_text": "",
+                            "groups_info": {
+                                "exclusionGroupsInfo": {},
+                                "message": ""
+                            },
+                            "pre_display_threshold_text": "",
+                            "discount_on_type": "CART"
+                        },
+                        {
+                            "description": "",
+                            "short_description": "",
+                            "discount_type": "PERCENT",
+                            "logo_id": "InstamartAssets/Swiggy%20New%20(400%20x%20400)%20Logo.png",
+                            "title": "Purchases above Rs 2000 and get Flat 10% off on Electronics and Appliances ",
+                            "sub_title": "Purchases above Rs 2000 and get Flat 10% off on Electronics and Appliances ",
+                            "tnc": [
+                                "Valid only on Electronics and Appliances",
+                                "The cart can have other items too but the discount will be valid only on Electronics and Appliances",
+                                "Limited period offer",
+                                "Offer valid once per user",
+                                "Valid only on Instamart",
+                                "Other T&Cs may apply"
+                            ],
+                            "coupon_code": "ELEC10",
+                            "super_offer": false,
+                            "minimum_order_value": 200000,
+                            "prev_mov_text": "",
+                            "post_mov_text": "",
+                            "groups_info": {
+                                "exclusionGroupsInfo": {},
+                                "message": ""
+                            },
+                            "pre_display_threshold_text": "",
+                            "discount_on_type": "CART"
+                        }
+                    ]
+                },
+                "priority": "PRIORITY_PRIMARY",
+                "orderabilityDetails": {
+                    "sla": {
+                        "value": "16",
+                        "unit": "mins",
+                        "backgroundColor": "#B6B6B6",
+                        "textColor": "text_color_low_emphasis"
+                    },
+                    "serviceabilityStatus": "SERVICEABLE",
+                    "serviceabilityType": "FAST_SERVICEABLE",
+                    "available": true
+                }
+            }
+        ],
+        "splitCartEnabled": true
+    },
+    "statusCode": 0
+}
