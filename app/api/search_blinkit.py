@@ -80,7 +80,7 @@ def extract_products(response_data: Dict) -> List[Product]:
     return products
 
 cookie_temp = {}
-def fetch_blinkit_data(query: str = None, lat: str = "28.4511202", lon: str = "77.0965147", next_url: str = None) -> Dict[str, Any]:
+def fetch_blinkit_data(query: str = None, lat: str = "28.4511202", lon: str = "77.0965147", next_url: str = None, proxy: Dict[str, str] = None) -> Dict[str, Any]:
     global cookie_temp
     base_url = "https://blinkit.com"
     if next_url:
@@ -101,7 +101,12 @@ def fetch_blinkit_data(query: str = None, lat: str = "28.4511202", lon: str = "7
     
     try:
         scraper = cloudscraper.create_scraper()  # returns a requests-like session
-        response = scraper.post(url, headers=headers)
+        if proxy:
+            print(f"Using proxy: {list(proxy.values())[0].split('@')[1] if proxy else 'direct'}")
+            response = scraper.post(url, headers=headers, proxies=proxy, timeout=30)
+        else:
+            response = scraper.post(url, headers=headers, timeout=30)
+            
         print("Content-Type:", response.headers.get("Content-Type"))
         if response.status_code != 200:
             print("error in response with code",response.status_code)
@@ -130,7 +135,7 @@ def fetch_blinkit_data(query: str = None, lat: str = "28.4511202", lon: str = "7
 
 
 @router.get("/blinkit/search")
-def search_blinkit(query: str = "chocolate", coordinates: str = "28.451,77.096", save_to_db: bool = False) -> List[Dict[str, Any]]:
+def search_blinkit(query: str = "chocolate", coordinates: str = "28.451,77.096", save_to_db: bool = False, proxy: str = None) -> List[Dict[str, Any]]:
     lat, lon = coordinates.split(',')
     all_products = []
     page_count = 0
@@ -139,6 +144,20 @@ def search_blinkit(query: str = "chocolate", coordinates: str = "28.451,77.096",
     max_pages = 10
     max_retries = 3
 
+    proxy_dict = None
+    if proxy:
+        try:
+            parts = proxy.split(':')
+            if len(parts) == 4:
+                ip, port, username, password = parts
+                proxy_url = f"http://{username}:{password}@{ip}:{port}"
+                proxy_dict = {
+                    'http': proxy_url,
+                    'https': proxy_url
+                }
+        except Exception as e:
+            print(f"Error parsing proxy: {e}")
+
     try:
         while has_next_url and page_count < max_pages:
             retries = 0
@@ -146,9 +165,9 @@ def search_blinkit(query: str = "chocolate", coordinates: str = "28.451,77.096",
             while retries < max_retries and not success:
                 try:
                     if next_url:
-                        response_data = fetch_blinkit_data(query, lat, lon, next_url)
+                        response_data = fetch_blinkit_data(query, lat, lon, next_url, proxy_dict)
                     else:
-                        response_data = fetch_blinkit_data(query, lat, lon)
+                        response_data = fetch_blinkit_data(query, lat, lon, proxy=proxy_dict)
                     
                     next_url = response_data.get('response', {}).get('pagination', {}).get('next_url')
                     has_next_url = bool(next_url)

@@ -1,20 +1,57 @@
 from fastapi import APIRouter, HTTPException
-from typing import Dict, Any, List, Optional
+from typing import Dict, Any, List
 import json
 import logging
 import cloudscraper
 import time
-import re
 import random
+import base64
 
 from ..db.models import Product
 from ..db.utils import save_products_to_db
 from ..utils.format_utils import model_to_dict
 
 router = APIRouter()
-
-# Configure logging
 logger = logging.getLogger(__name__)
+
+# Global session management
+bb_session = None
+last_request_time = 0
+
+def generate_address_info(lat: float, lon: float, address: str, pincode: str, city: str) -> str:
+    """Generate the _bb_addressinfo cookie value from coordinates"""
+    address_info = f"{lat}|{lon}|{address}|{pincode}|{city}|1|false|true|true|Bigbasketeer"
+    return base64.b64encode(address_info.encode()).decode()
+
+def init_bigbasket_session(lat: float, lon: float, address: str, pincode: str, city: str):
+    """Initialize a session with BigBasket including location cookies"""
+    global bb_session
+    bb_session = cloudscraper.create_scraper()
+    
+    # Base64 encode the coordinates for _bb_lat_long cookie
+    lat_long_str = f"{lat}|{lon}"
+    lat_long_encoded = base64.b64encode(lat_long_str.encode()).decode()
+    
+    # Set location cookies with encoded values
+    bb_session.cookies.set("_bb_lat_long", lat_long_encoded, domain=".bigbasket.com")
+    bb_session.cookies.set("_bb_addressinfo", generate_address_info(lat, lon, address, pincode, city), domain=".bigbasket.com")
+    bb_session.cookies.set("_bb_pin_code", pincode, domain=".bigbasket.com")
+    bb_session.cookies.set("_bb_cid", "17", domain=".bigbasket.com")  # Default city ID
+    
+    # First request to establish session (unchanged)
+    try:
+        response = bb_session.get(
+            "https://www.bigbasket.com/",
+            headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+            },
+            timeout=30
+        )
+        logger.debug(f"Session initialized for location: {lat},{lon}")
+    except Exception as e:
+        logger.error(f"Error initializing BigBasket session: {str(e)}")
+        bb_session = None
 
 def extract_products_bigbasket(response_data: Dict, search_query: str) -> List[Product]:
     """Extract products from BigBasket API response"""
@@ -94,38 +131,13 @@ def extract_products_bigbasket(response_data: Dict, search_query: str) -> List[P
                 
     return products
 
-# Global storage for cookies and session
-bb_session = None
-last_request_time = 0
-
-def init_bigbasket_session():
-    """Initialize a session with BigBasket including cookies and headers"""
-    global bb_session
-    bb_session = cloudscraper.create_scraper()
-    
-    # First get request to establish session
-    try:
-        response = bb_session.get(
-            "https://www.bigbasket.com/",
-            headers={
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-                "Accept-Language": "en-US,en;q=0.5",
-            },
-            timeout=30
-        )
-        logger.debug(f"Session initialized with status: {response.status_code}")
-    except Exception as e:
-        logger.error(f"Error initializing BigBasket session: {str(e)}")
-        bb_session = None
-
-def fetch_bigbasket_data(query: str, page: int = 1) -> Dict[str, Any]:
-    """Fetch data from BigBasket with proper session management"""
+def fetch_bigbasket_data(query: str, lat: float, lon: float, address: str, pincode: str, city: str, page: int = 1) -> Dict[str, Any]:
+    """Fetch data from BigBasket with location support"""
     global bb_session, last_request_time
     
-    # Initialize session if needed
+    # Initialize session with location if needed
     if bb_session is None:
-        init_bigbasket_session()
+        init_bigbasket_session(lat, lon, address, pincode, city)
         if bb_session is None:
             raise HTTPException(
                 status_code=500,
@@ -167,9 +179,6 @@ def fetch_bigbasket_data(query: str, page: int = 1) -> Dict[str, Any]:
         
         last_request_time = time.time()
         
-        logger.debug(f"BigBasket API request: {response.url}")
-        logger.debug(f"Response status: {response.status_code}")
-        
         if response.status_code != 200:
             logger.error(f"BigBasket API error: {response.status_code} - {response.text[:200]}")
             raise HTTPException(
@@ -179,16 +188,9 @@ def fetch_bigbasket_data(query: str, page: int = 1) -> Dict[str, Any]:
         
         return response.json()
     
-    except json.JSONDecodeError:
-        logger.error("Failed to parse JSON response from BigBasket")
-        raise HTTPException(
-            status_code=500,
-            detail="Failed to parse response from BigBasket API - not valid JSON"
-        )
     except Exception as e:
         logger.error(f"Error while fetching BigBasket data: {str(e)}")
-        # Reset session on error
-        bb_session = None
+        bb_session = None  # Reset session on error
         raise HTTPException(
             status_code=500,
             detail=f"Error while fetching data from BigBasket API: {str(e)}"
@@ -197,36 +199,43 @@ def fetch_bigbasket_data(query: str, page: int = 1) -> Dict[str, Any]:
 @router.get("/bigbasket/search")
 def search_bigbasket(
     query: str,
+    coordinates: str,  # Format: "latitude,longitude"
     save_to_db: bool = False,
-    max_pages: int = 3
+    max_pages: int = 3,
+    address: str = "Railway Colony",
+    pincode: str = "226004",
+    city: str = "Lucknow"
 ) -> List[Dict[str, Any]]:
-    """Search BigBasket products with proper session handling"""
-    all_products = []
-    page = 1
-    has_more = True
-    max_retries = 3
-    products_per_page = 30  # BigBasket returns 30 products per page
-
+    """Search BigBasket products with location support"""
     try:
+        # Parse coordinates
+        lat, lon = map(float, coordinates.split(','))
+        
+        all_products = []
+        page = 1
+        has_more = True
+        max_retries = 3
+        
+        logger.info(f"Searching BigBasket for '{query}' at location: {lat},{lon} address: {address}, pincode: {pincode}, city: {city}")
+
         while has_more and page <= max_pages:
             retries = 0
             success = False
-            response_data = None
             
             while retries < max_retries and not success:
                 try:
-                    response_data = fetch_bigbasket_data(query, page)
+                    response_data = fetch_bigbasket_data(query, lat, lon, address, pincode, city, page)
                     products = extract_products_bigbasket(response_data, query)
                     
                     # Set organic rank based on position
                     for idx, product in enumerate(products):
-                        product.organic_rank = (page - 1) * products_per_page + idx + 1
+                        product.organic_rank = (page - 1) * 30 + idx + 1
                     
                     all_products.extend(products)
                     success = True
                     
-                    # Check if more pages exist - BigBasket doesn't provide a has_next flag
-                    has_more = len(products) >= products_per_page
+                    # Check if more pages exist
+                    has_more = len(products) >= 30  # BigBasket shows 30 products/page
                     
                 except HTTPException as e:
                     retries += 1
@@ -237,7 +246,6 @@ def search_bigbasket(
                         logger.warning(f"Retry {retries} for page {page}: {e.detail}")
                         time.sleep(2 ** retries)  # Exponential backoff
             
-            # Move to next page
             if success:
                 page += 1
                 time.sleep(random.uniform(1.5, 3.0))  # Random delay between pages

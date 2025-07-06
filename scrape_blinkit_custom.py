@@ -5,31 +5,75 @@ from typing import List, Dict, Any
 import time
 from datetime import datetime
 import os
+import random
 
 # ===== CONFIGURATION - MODIFY THESE PARAMETERS =====
 QUERIES = ["Fruits", "Vegetables"]  # Add your search queries here
-COORDINATES_CSV = "BangaloreCords1.csv"  # CSV file containing coordinates
-BASE_URL = "http://localhost:8000"  # FastAPI server URL
+COORDINATES_CSV = "BangaloreCords.csv"  # CSV file containing coordinates
+BASE_URL = "http://localhost:8002"  # FastAPI server URL
 DELAY_BETWEEN_REQUESTS = 1  # Seconds to wait between requests
-OUTPUT_DIR = "NoonFruitsAndVeggies"  # Directory to save output files
+OUTPUT_DIR = "Testing1"  # Directory to save output files
+PROXY_FILE = "ProxiesBlinkit1.txt"  # Proxy file path
 # =================================================
 
+def read_proxies_from_file(proxy_file: str) -> List[Dict[str, str]]:
+    proxies = []
+    try:
+        with open(proxy_file, 'r', encoding='utf-8') as file:
+            for line in file:
+                line = line.strip()
+                if line:
+                    parts = line.split(':')
+                    if len(parts) == 4:
+                        ip, port, username, password = parts
+                        proxy_url = f"http://{username}:{password}@{ip}:{port}"
+                        proxies.append({
+                            'http': proxy_url,
+                            'https': proxy_url
+                        })
+        print(f"Loaded {len(proxies)} proxies from {proxy_file}")
+        return proxies
+    except Exception as e:
+        print(f"Error reading proxy file: {e}")
+        return []
+
 class BlinkitScraper:
-    def __init__(self, base_url: str = "http://localhost:8000"):
+    def __init__(self, base_url: str = "http://localhost:8002", proxies: List[Dict[str, str]] = None):
         self.base_url = base_url
         self.session = requests.Session()
+        self.proxies = proxies or []
+        self.current_proxy_index = 0
+    
+    def get_next_proxy(self) -> Dict[str, str]:
+        if not self.proxies:
+            return {}
+        
+        proxy = self.proxies[self.current_proxy_index]
+        self.current_proxy_index = (self.current_proxy_index + 1) % len(self.proxies)
+        return proxy
     
     def search_products(self, query: str, coordinates: str = "28.451,77.096", save_to_db: bool = False) -> List[Dict[str, Any]]:
         url = f"{self.base_url}/blinkit/search"
+        
+        proxy = self.get_next_proxy()
+        proxy_str = None
+        if proxy:
+            proxy_url = list(proxy.values())[0]
+            proxy_str = proxy_url.replace('http://', '').replace('https://', '')
+        
         params = {
             "query": query,
             "coordinates": coordinates,
             "save_to_db": save_to_db
         }
         
+        if proxy_str:
+            params["proxy"] = proxy_str
+        
         try:
-            print(f"Requesting: {url} with params: {params}")
-            response = self.session.get(url, params=params)
+            proxy_info = f" (via {proxy_str})" if proxy_str else ""
+            print(f"Requesting: {url} with params: {params}{proxy_info}")
+            response = self.session.get(url, params=params, timeout=30)
             response.raise_for_status()
             return response.json()
         except requests.exceptions.RequestException as e:
@@ -88,9 +132,10 @@ def read_coordinates_from_csv(csv_file: str) -> List[Dict[str, str]]:
         return []
 
 def scrape_products_for_all_coordinates(queries: List[str], coordinates_data: List[Dict[str, str]], 
-                                       base_url: str = "http://localhost:8000", 
-                                       delay: int = 2, output_dir: str = "scraped_data"):
-    scraper = BlinkitScraper(base_url)
+                                       base_url: str = "http://localhost:8002", 
+                                       delay: int = 2, output_dir: str = "scraped_data",
+                                       proxies: List[Dict[str, str]] = None):
+    scraper = BlinkitScraper(base_url, proxies)
     
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
@@ -148,7 +193,12 @@ def main():
     print(f"Base URL: {BASE_URL}")
     print(f"Delay: {DELAY_BETWEEN_REQUESTS}s")
     print(f"Output Directory: {OUTPUT_DIR}")
+    print(f"Proxy File: {PROXY_FILE}")
     print("=" * 60)
+    
+    proxies = read_proxies_from_file(PROXY_FILE)
+    if not proxies:
+        print("Warning: No proxies loaded. Running without proxies.")
     
     coordinates_data = read_coordinates_from_csv(COORDINATES_CSV)
     
@@ -161,7 +211,8 @@ def main():
         coordinates_data=coordinates_data,
         base_url=BASE_URL,
         delay=DELAY_BETWEEN_REQUESTS,
-        output_dir=OUTPUT_DIR
+        output_dir=OUTPUT_DIR,
+        proxies=proxies
     )
 
 if __name__ == "__main__":
