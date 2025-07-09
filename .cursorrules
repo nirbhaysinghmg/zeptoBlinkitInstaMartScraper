@@ -1,0 +1,4 @@
+- Do not add comments unless absolutely necessary
+- Make changes with minimum lines of code
+- Always reason with yourself before implementing the changes
+- Do not stop until the required state is achieved
