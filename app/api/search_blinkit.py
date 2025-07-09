@@ -7,6 +7,9 @@ import logging
 import cloudscraper
 import time
 # import brotli
+from fastapi.responses import StreamingResponse
+import io
+import csv
 
 from ..utils.token_utils import (
     generate_uuid, 
@@ -80,7 +83,7 @@ def extract_products(response_data: Dict) -> List[Product]:
     return products
 
 cookie_temp = {}
-def fetch_blinkit_data(query: str = None, lat: str = "28.4511202", lon: str = "77.0965147", next_url: str = None, proxy: Dict[str, str] = None) -> Dict[str, Any]:
+def fetch_blinkit_data(query: str = None, lat: str = "28.4511202", lon: str = "77.0965147", next_url: str = None) -> Dict[str, Any]:
     global cookie_temp
     base_url = "https://blinkit.com"
     if next_url:
@@ -101,12 +104,7 @@ def fetch_blinkit_data(query: str = None, lat: str = "28.4511202", lon: str = "7
     
     try:
         scraper = cloudscraper.create_scraper()  # returns a requests-like session
-        if proxy:
-            print(f"Using proxy: {list(proxy.values())[0].split('@')[1] if proxy else 'direct'}")
-            response = scraper.post(url, headers=headers, proxies=proxy, timeout=30)
-        else:
-            response = scraper.post(url, headers=headers, timeout=30)
-            
+        response = scraper.post(url, headers=headers)
         print("Content-Type:", response.headers.get("Content-Type"))
         if response.status_code != 200:
             print("error in response with code",response.status_code)
@@ -134,8 +132,68 @@ def fetch_blinkit_data(query: str = None, lat: str = "28.4511202", lon: str = "7
         )
 
 
+def search_blinkit_generator(query: str = "chocolate", coordinates: str = "28.451,77.096"):
+    lat, lon = coordinates.split(',')
+    page_count = 0
+    has_next_url = True
+    next_url = None
+    max_pages = 10
+    max_retries = 3
+    try:
+        while has_next_url and page_count < max_pages:
+            retries = 0
+            success = False
+            while retries < max_retries and not success:
+                try:
+                    if next_url:
+                        response_data = fetch_blinkit_data(query, lat, lon, next_url)
+                    else:
+                        response_data = fetch_blinkit_data(query, lat, lon)
+                    next_url = response_data.get('response', {}).get('pagination', {}).get('next_url')
+                    has_next_url = bool(next_url)
+                    page_products = extract_products(response_data)
+                    for product in page_products:
+                        yield model_to_dict(product, exclude_fields=["id", "created_at", "updated_at"])
+                    page_count += 1
+                    time.sleep(1)
+                    success = True
+                except Exception as page_err:
+                    retries += 1
+                    if retries == max_retries:
+                        logging.error(f"Error processing page {page_count} after {max_retries} retries: {str(page_err)}")
+                        has_next_url = False
+                    else:
+                        logging.warning(f"Retry {retries} for page {page_count}: {str(page_err)}")
+                        time.sleep(5)
+    except Exception as e:
+        logging.error(f"Error in generator: {str(e)}")
+
+@router.get("/blinkit/download")
+def download_blinkit_csv(query: str, coordinates: str):
+    def generate():
+        header = [
+            'platform', 'search_query', 'store_id', 'product_id', 'variant_id',
+            'name', 'brand', 'mrp', 'price', 'quantity', 'in_stock', 'inventory',
+            'max_allowed_quantity', 'category', 'sub_category', 'images',
+            'organic_rank', 'rating'
+        ]
+        output = io.StringIO()
+        writer = csv.writer(output)
+        writer.writerow(header)
+        yield output.getvalue()
+        output.seek(0)
+        output.truncate(0)
+        for product in search_blinkit_generator(query, coordinates):
+            row = [product.get(field, '') for field in header]
+            writer.writerow(row)
+            yield output.getvalue()
+            output.seek(0)
+            output.truncate(0)
+    return StreamingResponse(generate(), media_type="text/csv", headers={"Content-Disposition": "attachment; filename=blinkit_products.csv"})
+
+
 @router.get("/blinkit/search")
-def search_blinkit(query: str = "chocolate", coordinates: str = "28.451,77.096", save_to_db: bool = False, proxy: str = None) -> List[Dict[str, Any]]:
+def search_blinkit(query: str = "chocolate", coordinates: str = "28.451,77.096", save_to_db: bool = False) -> List[Dict[str, Any]]:
     lat, lon = coordinates.split(',')
     all_products = []
     page_count = 0
@@ -144,20 +202,6 @@ def search_blinkit(query: str = "chocolate", coordinates: str = "28.451,77.096",
     max_pages = 10
     max_retries = 3
 
-    proxy_dict = None
-    if proxy:
-        try:
-            parts = proxy.split(':')
-            if len(parts) == 4:
-                ip, port, username, password = parts
-                proxy_url = f"http://{username}:{password}@{ip}:{port}"
-                proxy_dict = {
-                    'http': proxy_url,
-                    'https': proxy_url
-                }
-        except Exception as e:
-            print(f"Error parsing proxy: {e}")
-
     try:
         while has_next_url and page_count < max_pages:
             retries = 0
@@ -165,9 +209,9 @@ def search_blinkit(query: str = "chocolate", coordinates: str = "28.451,77.096",
             while retries < max_retries and not success:
                 try:
                     if next_url:
-                        response_data = fetch_blinkit_data(query, lat, lon, next_url, proxy_dict)
+                        response_data = fetch_blinkit_data(query, lat, lon, next_url)
                     else:
-                        response_data = fetch_blinkit_data(query, lat, lon, proxy=proxy_dict)
+                        response_data = fetch_blinkit_data(query, lat, lon)
                     
                     next_url = response_data.get('response', {}).get('pagination', {}).get('next_url')
                     has_next_url = bool(next_url)
