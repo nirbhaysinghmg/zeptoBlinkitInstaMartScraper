@@ -8,7 +8,7 @@ import os
 
 # ===== CONFIGURATION - MODIFY THESE PARAMETERS =====
 QUERIES = ["Air Fresheners", "Liquid Detergents", "Perfume and Deodrants", "Household Insecticides"]  # Add your search queries here
-COORDINATES_CSV = "BangaloreCordinates5.csv"  # CSV file containing coordinates
+COORDINATES_CSV = "BangCords4.csv"  # CSV file containing coordinates
 BASE_URL = "http://localhost:8000"  # FastAPI server URL
 DELAY_BETWEEN_REQUESTS = 1  # Seconds to wait between requests
 OUTPUT_DIR = "9JulyTesting"  # Directory to save output files

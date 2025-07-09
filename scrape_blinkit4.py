@@ -8,7 +8,7 @@ import os
 
 # ===== CONFIGURATION - MODIFY THESE PARAMETERS =====
 QUERIES = ["Air Fresheners", "Liquid Detergents", "Perfume and Deodrants", "Household Insecticides"]  # Add your search queries here
-COORDINATES_CSV = "BangaloreCordinates4.csv"  # CSV file containing coordinates
+COORDINATES_CSV = "BangCords3.csv"  # CSV file containing coordinates
 BASE_URL = "https://scraper4-5lp1.onrender.com"  # FastAPI server URL
 DELAY_BETWEEN_REQUESTS = 1  # Seconds to wait between requests
 OUTPUT_DIR = "9JulyMorningHousehold4"  # Directory to save output files
